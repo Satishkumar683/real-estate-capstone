@@ -1,0 +1,3026 @@
+{
+  "__global__": {
+    "predicted_price": 20521168.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0608
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0387
+      },
+      {
+        "label": "Distance from city center (7.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0378
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0335
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0209
+      },
+      {
+        "label": "Area (1,950 sqft)",
+        "direction": "negative",
+        "magnitude": 0.019
+      }
+    ],
+    "sample_size": 7880
+  },
+  "DLF Phase 1|3": {
+    "predicted_price": 24903372.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1976
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0956
+      },
+      {
+        "label": "Area (1,800 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0948
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0501
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0433
+      },
+      {
+        "label": "Distance from city center (7.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0412
+      }
+    ],
+    "sample_size": 33
+  },
+  "DLF Phase 1|4": {
+    "predicted_price": 41525200.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2006
+      },
+      {
+        "label": "Area (2,700 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1451
+      },
+      {
+        "label": "Super built-up area (3,050 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1417
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0968
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0726
+      },
+      {
+        "label": "Carpet area (3,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0658
+      }
+    ],
+    "sample_size": 43
+  },
+  "DLF Phase 2|3": {
+    "predicted_price": 28452912.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1732
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.1093
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0516
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0461
+      },
+      {
+        "label": "Distance from city center (6.7 km)",
+        "direction": "positive",
+        "magnitude": 0.038
+      },
+      {
+        "label": "Super built-up area (2,100 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0314
+      }
+    ],
+    "sample_size": 38
+  },
+  "DLF Phase 2|4": {
+    "predicted_price": 38963804.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.156
+      },
+      {
+        "label": "Area (2,691 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1539
+      },
+      {
+        "label": "Super built-up area (2,460 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1229
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.109
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0751
+      },
+      {
+        "label": "Carpet area (2,900 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0596
+      }
+    ],
+    "sample_size": 84
+  },
+  "DLF Phase 5|3": {
+    "predicted_price": 23781916.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1956
+      },
+      {
+        "label": "Area (1,410 sqft)",
+        "direction": "negative",
+        "magnitude": 0.113
+      },
+      {
+        "label": "Super built-up area (1,402 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1085
+      },
+      {
+        "label": "Locality: DLF Phase 5",
+        "direction": "positive",
+        "magnitude": 0.078
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0547
+      },
+      {
+        "label": "Distance from city center (6.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0435
+      }
+    ],
+    "sample_size": 34
+  },
+  "DLF Phase 5|4": {
+    "predicted_price": 53434148.0,
+    "top_factors": [
+      {
+        "label": "Area (2,610 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2346
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.189
+      },
+      {
+        "label": "Super built-up area (2,750 sqft)",
+        "direction": "positive",
+        "magnitude": 0.176
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.107
+      },
+      {
+        "label": "Locality: DLF Phase 5",
+        "direction": "positive",
+        "magnitude": 0.0618
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0593
+      }
+    ],
+    "sample_size": 49
+  },
+  "Nirvana Country|2": {
+    "predicted_price": 16126614.0,
+    "top_factors": [
+      {
+        "label": "Area (1,418 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1287
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1157
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0998
+      },
+      {
+        "label": "Super built-up area (1,418 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0982
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0417
+      },
+      {
+        "label": "Distance from city center (6.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0265
+      }
+    ],
+    "sample_size": 12
+  },
+  "Nirvana Country|3": {
+    "predicted_price": 25456524.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1055
+      },
+      {
+        "label": "Area (2,115 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0902
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.033
+      },
+      {
+        "label": "Locality: Nirvana Country",
+        "direction": "negative",
+        "magnitude": 0.0199
+      },
+      {
+        "label": "Super built-up area (2,160 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0197
+      },
+      {
+        "label": "Nearby hospitals",
+        "direction": "positive",
+        "magnitude": 0.0117
+      }
+    ],
+    "sample_size": 80
+  },
+  "Nirvana Country|4": {
+    "predicted_price": 41018720.0,
+    "top_factors": [
+      {
+        "label": "Area (3,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3386
+      },
+      {
+        "label": "Super built-up area (3,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1648
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1042
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0505
+      },
+      {
+        "label": "Building height (17 floors)",
+        "direction": "positive",
+        "magnitude": 0.0447
+      },
+      {
+        "label": "Carpet area (2,625 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0395
+      }
+    ],
+    "sample_size": 24
+  },
+  "Other|1": {
+    "predicted_price": 3423195.5,
+    "top_factors": [
+      {
+        "label": "Area (489 sqft)",
+        "direction": "negative",
+        "magnitude": 0.924
+      },
+      {
+        "label": "Super built-up area (489 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3151
+      },
+      {
+        "label": "Carpet area (371 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2181
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1773
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0729
+      },
+      {
+        "label": "Building height (13 floors)",
+        "direction": "negative",
+        "magnitude": 0.0527
+      }
+    ],
+    "sample_size": 12
+  },
+  "Other|2": {
+    "predicted_price": 10179972.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,360 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2047
+      },
+      {
+        "label": "Area (1,270 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1847
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.135
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0648
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0538
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0469
+      }
+    ],
+    "sample_size": 660
+  },
+  "Other|3": {
+    "predicted_price": 19074748.0,
+    "top_factors": [
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0447
+      },
+      {
+        "label": "Distance from city center (7.1 km)",
+        "direction": "positive",
+        "magnitude": 0.0389
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0369
+      },
+      {
+        "label": "Area (1,930 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0294
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0264
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0219
+      }
+    ],
+    "sample_size": 1965
+  },
+  "Other|4": {
+    "predicted_price": 28903572.0,
+    "top_factors": [
+      {
+        "label": "Area (2,746 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1964
+      },
+      {
+        "label": "Super built-up area (3,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.149
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1061
+      },
+      {
+        "label": "Building height (10 floors)",
+        "direction": "negative",
+        "magnitude": 0.0871
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.063
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.053
+      }
+    ],
+    "sample_size": 871
+  },
+  "Other|5": {
+    "predicted_price": 42824884.0,
+    "top_factors": [
+      {
+        "label": "Area (3,850 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4743
+      },
+      {
+        "label": "Super built-up area (3,880 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2184
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0831
+      },
+      {
+        "label": "5 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0761
+      },
+      {
+        "label": "Carpet area (3,950 sqft)",
+        "direction": "positive",
+        "magnitude": 0.045
+      },
+      {
+        "label": "5 BHK",
+        "direction": "positive",
+        "magnitude": 0.0217
+      }
+    ],
+    "sample_size": 29
+  },
+  "Palam Vihar|3": {
+    "predicted_price": 20985504.0,
+    "top_factors": [
+      {
+        "label": "Area (2,430 sqft)",
+        "direction": "positive",
+        "magnitude": 0.162
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0904
+      },
+      {
+        "label": "Super built-up area (2,459 sqft)",
+        "direction": "positive",
+        "magnitude": 0.084
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0378
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0181
+      },
+      {
+        "label": "Amenities (6 listed)",
+        "direction": "negative",
+        "magnitude": 0.0161
+      }
+    ],
+    "sample_size": 48
+  },
+  "Palam Vihar|4": {
+    "predicted_price": 25320884.0,
+    "top_factors": [
+      {
+        "label": "Area (3,175 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2551
+      },
+      {
+        "label": "Super built-up area (3,240 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1334
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0902
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0671
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0563
+      },
+      {
+        "label": "Carpet area (2,800 sqft)",
+        "direction": "positive",
+        "magnitude": 0.049
+      }
+    ],
+    "sample_size": 44
+  },
+  "Sector 102|2": {
+    "predicted_price": 13831973.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,215 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1841
+      },
+      {
+        "label": "Area (1,215 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1658
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.1194
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1152
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0877
+      },
+      {
+        "label": "Locality: Sector 102",
+        "direction": "positive",
+        "magnitude": 0.0623
+      }
+    ],
+    "sample_size": 52
+  },
+  "Sector 102|3": {
+    "predicted_price": 20947792.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1164
+      },
+      {
+        "label": "Locality: Sector 102",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.0608
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0284
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0216
+      },
+      {
+        "label": "Distance from city center (5.9 km)",
+        "direction": "positive",
+        "magnitude": 0.0192
+      }
+    ],
+    "sample_size": 147
+  },
+  "Sector 102|4": {
+    "predicted_price": 31723480.0,
+    "top_factors": [
+      {
+        "label": "Area (3,165 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2799
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1833
+      },
+      {
+        "label": "Super built-up area (3,198 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1782
+      },
+      {
+        "label": "5 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.062
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0399
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.0398
+      }
+    ],
+    "sample_size": 30
+  },
+  "Sector 104|2": {
+    "predicted_price": 13524757.0,
+    "top_factors": [
+      {
+        "label": "Area (1,249 sqft)",
+        "direction": "negative",
+        "magnitude": 0.186
+      },
+      {
+        "label": "Building height (29 floors)",
+        "direction": "positive",
+        "magnitude": 0.1846
+      },
+      {
+        "label": "Super built-up area (1,269 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1688
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1263
+      },
+      {
+        "label": "Carpet area (684 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0751
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0561
+      }
+    ],
+    "sample_size": 38
+  },
+  "Sector 104|3": {
+    "predicted_price": 16814408.0,
+    "top_factors": [
+      {
+        "label": "Building height (35 floors)",
+        "direction": "positive",
+        "magnitude": 0.1432
+      },
+      {
+        "label": "Area (1,689 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1126
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0763
+      },
+      {
+        "label": "Super built-up area (1,689 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0747
+      },
+      {
+        "label": "Carpet area (1,082 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0464
+      },
+      {
+        "label": "Distance from city center (3.9 km)",
+        "direction": "negative",
+        "magnitude": 0.0198
+      }
+    ],
+    "sample_size": 80
+  },
+  "Sector 104|4": {
+    "predicted_price": 28512672.0,
+    "top_factors": [
+      {
+        "label": "Area (3,150 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2764
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2198
+      },
+      {
+        "label": "Super built-up area (3,150 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1777
+      },
+      {
+        "label": "Building height (27 floors)",
+        "direction": "positive",
+        "magnitude": 0.0903
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0464
+      },
+      {
+        "label": "Carpet area (2,400 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0316
+      }
+    ],
+    "sample_size": 15
+  },
+  "Sector 106|2": {
+    "predicted_price": 13098072.0,
+    "top_factors": [
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1282
+      },
+      {
+        "label": "Area (1,385 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1281
+      },
+      {
+        "label": "Super built-up area (1,385 sqft)",
+        "direction": "negative",
+        "magnitude": 0.124
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0858
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.0427
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0365
+      }
+    ],
+    "sample_size": 34
+  },
+  "Sector 106|3": {
+    "predicted_price": 25641016.0,
+    "top_factors": [
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.167
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0591
+      },
+      {
+        "label": "Super built-up area (1,760 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0567
+      },
+      {
+        "label": "Distance from city center (6.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0521
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0337
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0333
+      }
+    ],
+    "sample_size": 85
+  },
+  "Sector 106|4": {
+    "predicted_price": 40633580.0,
+    "top_factors": [
+      {
+        "label": "Area (2,720 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2437
+      },
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.1906
+      },
+      {
+        "label": "Super built-up area (2,720 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1539
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1015
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0554
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0384
+      }
+    ],
+    "sample_size": 27
+  },
+  "Sector 108|2": {
+    "predicted_price": 12379712.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1703
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1334
+      },
+      {
+        "label": "Super built-up area (1,381 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1283
+      },
+      {
+        "label": "Area (1,381 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1019
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.047
+      },
+      {
+        "label": "Distance from city center (7.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0467
+      }
+    ],
+    "sample_size": 25
+  },
+  "Sector 108|3": {
+    "predicted_price": 37401792.0,
+    "top_factors": [
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.1116
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1066
+      },
+      {
+        "label": "Locality: Sector 108",
+        "direction": "positive",
+        "magnitude": 0.0787
+      },
+      {
+        "label": "Area (2,003 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0762
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0626
+      },
+      {
+        "label": "Distance from city center (7.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0498
+      }
+    ],
+    "sample_size": 81
+  },
+  "Sector 108|4": {
+    "predicted_price": 46340260.0,
+    "top_factors": [
+      {
+        "label": "Area (2,453 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1863
+      },
+      {
+        "label": "Super built-up area (2,454 sqft)",
+        "direction": "positive",
+        "magnitude": 0.124
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.113
+      },
+      {
+        "label": "Locality: Sector 108",
+        "direction": "positive",
+        "magnitude": 0.0899
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.082
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0649
+      }
+    ],
+    "sample_size": 24
+  },
+  "Sector 113 Gurgaon |2": {
+    "predicted_price": 17746148.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,330 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1339
+      },
+      {
+        "label": "Area (1,330 sqft)",
+        "direction": "negative",
+        "magnitude": 0.118
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1089
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0987
+      },
+      {
+        "label": "Building height (21 floors)",
+        "direction": "positive",
+        "magnitude": 0.0496
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0483
+      }
+    ],
+    "sample_size": 41
+  },
+  "Sector 113 Gurgaon |3": {
+    "predicted_price": 27555268.0,
+    "top_factors": [
+      {
+        "label": "Building height (25 floors)",
+        "direction": "positive",
+        "magnitude": 0.0925
+      },
+      {
+        "label": "Area (2,050 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0788
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0677
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0557
+      },
+      {
+        "label": "Distance from city center (7.9 km)",
+        "direction": "positive",
+        "magnitude": 0.0489
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.035
+      }
+    ],
+    "sample_size": 87
+  },
+  "Sector 113 Gurgaon |4": {
+    "predicted_price": 32101532.0,
+    "top_factors": [
+      {
+        "label": "Area (2,455 sqft)",
+        "direction": "positive",
+        "magnitude": 0.175
+      },
+      {
+        "label": "Building height (30 floors)",
+        "direction": "positive",
+        "magnitude": 0.1233
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0655
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.059
+      },
+      {
+        "label": "Carpet area (2,570 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0412
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0335
+      }
+    ],
+    "sample_size": 32
+  },
+  "Sector 37D|2": {
+    "predicted_price": 10088217.0,
+    "top_factors": [
+      {
+        "label": "Area (1,261 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1547
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1493
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.144
+      },
+      {
+        "label": "Super built-up area (1,380 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1063
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0675
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0391
+      }
+    ],
+    "sample_size": 25
+  },
+  "Sector 37D|3": {
+    "predicted_price": 14202401.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.175
+      },
+      {
+        "label": "Area (1,811 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0891
+      },
+      {
+        "label": "Super built-up area (1,811 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0392
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0308
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0184
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0144
+      }
+    ],
+    "sample_size": 89
+  },
+  "Sector 37D|4": {
+    "predicted_price": 20552228.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1859
+      },
+      {
+        "label": "Area (2,345 sqft)",
+        "direction": "positive",
+        "magnitude": 0.132
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0515
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0305
+      },
+      {
+        "label": "Super built-up area (2,256 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0212
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.0146
+      }
+    ],
+    "sample_size": 22
+  },
+  "Sector 48|3": {
+    "predicted_price": 22216240.0,
+    "top_factors": [
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0543
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0532
+      },
+      {
+        "label": "Locality: Sector 48",
+        "direction": "positive",
+        "magnitude": 0.0522
+      },
+      {
+        "label": "Super built-up area (2,075 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0449
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.036
+      },
+      {
+        "label": "Area (1,945 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0167
+      }
+    ],
+    "sample_size": 105
+  },
+  "Sector 48|4": {
+    "predicted_price": 28464420.0,
+    "top_factors": [
+      {
+        "label": "Area (2,567 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1593
+      },
+      {
+        "label": "Super built-up area (2,567 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1262
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.068
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.057
+      },
+      {
+        "label": "Locality: Sector 48",
+        "direction": "positive",
+        "magnitude": 0.0397
+      },
+      {
+        "label": "Carpet area (2,353 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0294
+      }
+    ],
+    "sample_size": 64
+  },
+  "Sector 49|3": {
+    "predicted_price": 21467188.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1096
+      },
+      {
+        "label": "Super built-up area (2,033 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0435
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0372
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0326
+      },
+      {
+        "label": "Area (1,859 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0206
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.015
+      }
+    ],
+    "sample_size": 59
+  },
+  "Sector 49|4": {
+    "predicted_price": 27468788.0,
+    "top_factors": [
+      {
+        "label": "Area (2,754 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1869
+      },
+      {
+        "label": "Super built-up area (2,754 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1504
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0764
+      },
+      {
+        "label": "Building height (13 floors)",
+        "direction": "negative",
+        "magnitude": 0.0728
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0629
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0431
+      }
+    ],
+    "sample_size": 47
+  },
+  "Sector 54|3": {
+    "predicted_price": 53676752.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2714
+      },
+      {
+        "label": "Building height (30 floors)",
+        "direction": "positive",
+        "magnitude": 0.2532
+      },
+      {
+        "label": "Area (2,175 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1661
+      },
+      {
+        "label": "Locality: Sector 54",
+        "direction": "positive",
+        "magnitude": 0.0913
+      },
+      {
+        "label": "Super built-up area (2,283 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0546
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0489
+      }
+    ],
+    "sample_size": 54
+  },
+  "Sector 54|4": {
+    "predicted_price": 60267112.0,
+    "top_factors": [
+      {
+        "label": "Area (2,863 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3011
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2215
+      },
+      {
+        "label": "Super built-up area (2,934 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1616
+      },
+      {
+        "label": "Building height (22 floors)",
+        "direction": "positive",
+        "magnitude": 0.0779
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.07
+      },
+      {
+        "label": "Locality: Sector 54",
+        "direction": "positive",
+        "magnitude": 0.0645
+      }
+    ],
+    "sample_size": 22
+  },
+  "Sector 56|2": {
+    "predicted_price": 10951345.0,
+    "top_factors": [
+      {
+        "label": "Area (1,047 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2833
+      },
+      {
+        "label": "Super built-up area (1,025 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1907
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1428
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1238
+      },
+      {
+        "label": "Building height (9 floors)",
+        "direction": "negative",
+        "magnitude": 0.0654
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0613
+      }
+    ],
+    "sample_size": 10
+  },
+  "Sector 56|3": {
+    "predicted_price": 15170342.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1025
+      },
+      {
+        "label": "Building height (8 floors)",
+        "direction": "negative",
+        "magnitude": 0.076
+      },
+      {
+        "label": "Super built-up area (1,850 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0607
+      },
+      {
+        "label": "Locality: Sector 56",
+        "direction": "negative",
+        "magnitude": 0.0591
+      },
+      {
+        "label": "Nearby landmarks (47)",
+        "direction": "negative",
+        "magnitude": 0.0503
+      },
+      {
+        "label": "Area (1,870 sqft)",
+        "direction": "negative",
+        "magnitude": 0.04
+      }
+    ],
+    "sample_size": 59
+  },
+  "Sector 56|4": {
+    "predicted_price": 24340128.0,
+    "top_factors": [
+      {
+        "label": "Area (2,650 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1582
+      },
+      {
+        "label": "Super built-up area (2,600 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1347
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1174
+      },
+      {
+        "label": "Building height (7 floors)",
+        "direction": "negative",
+        "magnitude": 0.1121
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.072
+      },
+      {
+        "label": "Nearby landmarks (47)",
+        "direction": "negative",
+        "magnitude": 0.0587
+      }
+    ],
+    "sample_size": 31
+  },
+  "Sector 57|3": {
+    "predicted_price": 18195212.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1094
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.063
+      },
+      {
+        "label": "Area (1,850 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0439
+      },
+      {
+        "label": "Super built-up area (2,313 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0433
+      },
+      {
+        "label": "Locality: Sector 57",
+        "direction": "negative",
+        "magnitude": 0.034
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0321
+      }
+    ],
+    "sample_size": 109
+  },
+  "Sector 57|4": {
+    "predicted_price": 25453028.0,
+    "top_factors": [
+      {
+        "label": "Area (2,700 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1561
+      },
+      {
+        "label": "Super built-up area (2,989 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1379
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0959
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0836
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0691
+      },
+      {
+        "label": "Locality: Sector 57",
+        "direction": "negative",
+        "magnitude": 0.0535
+      }
+    ],
+    "sample_size": 45
+  },
+  "Sector 59|3": {
+    "predicted_price": 46266164.0,
+    "top_factors": [
+      {
+        "label": "Area (2,595 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2054
+      },
+      {
+        "label": "Building height (31 floors)",
+        "direction": "positive",
+        "magnitude": 0.175
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1739
+      },
+      {
+        "label": "Super built-up area (2,595 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1365
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0412
+      },
+      {
+        "label": "Carpet area (2,095 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0293
+      }
+    ],
+    "sample_size": 123
+  },
+  "Sector 59|4": {
+    "predicted_price": 59359584.0,
+    "top_factors": [
+      {
+        "label": "Area (3,200 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3124
+      },
+      {
+        "label": "Super built-up area (3,395 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1958
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1722
+      },
+      {
+        "label": "Building height (33 floors)",
+        "direction": "positive",
+        "magnitude": 0.1533
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0589
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0482
+      }
+    ],
+    "sample_size": 10
+  },
+  "Sector 62|2": {
+    "predicted_price": 25042552.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1633
+      },
+      {
+        "label": "Building height (32 floors)",
+        "direction": "positive",
+        "magnitude": 0.1459
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1013
+      },
+      {
+        "label": "Area (1,508 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0725
+      },
+      {
+        "label": "Super built-up area (1,508 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0561
+      },
+      {
+        "label": "Distance from city center (8.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0347
+      }
+    ],
+    "sample_size": 39
+  },
+  "Sector 62|3": {
+    "predicted_price": 42311672.0,
+    "top_factors": [
+      {
+        "label": "Area (2,588 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2022
+      },
+      {
+        "label": "Building height (32 floors)",
+        "direction": "positive",
+        "magnitude": 0.161
+      },
+      {
+        "label": "Super built-up area (2,589 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1462
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1176
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0253
+      },
+      {
+        "label": "Carpet area (2,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.025
+      }
+    ],
+    "sample_size": 72
+  },
+  "Sector 62|4": {
+    "predicted_price": 50884336.0,
+    "top_factors": [
+      {
+        "label": "Area (3,104 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3144
+      },
+      {
+        "label": "Super built-up area (3,104 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1866
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1379
+      },
+      {
+        "label": "Building height (27 floors)",
+        "direction": "positive",
+        "magnitude": 0.1163
+      },
+      {
+        "label": "5 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0627
+      },
+      {
+        "label": "Carpet area (3,039 sqft)",
+        "direction": "positive",
+        "magnitude": 0.06
+      }
+    ],
+    "sample_size": 11
+  },
+  "Sector 63A|2": {
+    "predicted_price": 16292142.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,236 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1914
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1619
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1335
+      },
+      {
+        "label": "Area (1,232 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1274
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.066
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0346
+      }
+    ],
+    "sample_size": 13
+  },
+  "Sector 63A|3": {
+    "predicted_price": 20033564.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1372
+      },
+      {
+        "label": "Area (1,620 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0749
+      },
+      {
+        "label": "Super built-up area (1,632 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0709
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0365
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0364
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0351
+      }
+    ],
+    "sample_size": 79
+  },
+  "Sector 63A|4": {
+    "predicted_price": 26456360.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (2,610 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1304
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.125
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0557
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0373
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0354
+      }
+    ],
+    "sample_size": 19
+  },
+  "Sector 65|2": {
+    "predicted_price": 17307404.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,261 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1881
+      },
+      {
+        "label": "Area (1,261 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1697
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1314
+      },
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.1221
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0817
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.055
+      }
+    ],
+    "sample_size": 60
+  },
+  "Sector 65|3": {
+    "predicted_price": 31316000.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.106
+      },
+      {
+        "label": "Building height (28 floors)",
+        "direction": "positive",
+        "magnitude": 0.1023
+      },
+      {
+        "label": "Area (2,000 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0598
+      },
+      {
+        "label": "Distance from city center (7.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0409
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0285
+      },
+      {
+        "label": "Locality: Sector 65",
+        "direction": "positive",
+        "magnitude": 0.0256
+      }
+    ],
+    "sample_size": 135
+  },
+  "Sector 65|4": {
+    "predicted_price": 31554752.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (3,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1553
+      },
+      {
+        "label": "Building height (3 floors)",
+        "direction": "negative",
+        "magnitude": 0.1494
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1189
+      },
+      {
+        "label": "Area (2,159 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0827
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.076
+      },
+      {
+        "label": "Carpet area (2,200 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0302
+      }
+    ],
+    "sample_size": 71
+  },
+  "Sector 66|2": {
+    "predicted_price": 19319740.0,
+    "top_factors": [
+      {
+        "label": "Area (1,449 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1266
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1222
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1158
+      },
+      {
+        "label": "Building height (23 floors)",
+        "direction": "positive",
+        "magnitude": 0.088
+      },
+      {
+        "label": "Super built-up area (1,449 sqft)",
+        "direction": "negative",
+        "magnitude": 0.085
+      },
+      {
+        "label": "Distance from city center (7.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0443
+      }
+    ],
+    "sample_size": 26
+  },
+  "Sector 66|3": {
+    "predicted_price": 32024840.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1395
+      },
+      {
+        "label": "Area (2,130 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0962
+      },
+      {
+        "label": "Locality: Sector 66",
+        "direction": "positive",
+        "magnitude": 0.0621
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.04
+      },
+      {
+        "label": "Distance from city center (7.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0292
+      },
+      {
+        "label": "Building height (17 floors)",
+        "direction": "positive",
+        "magnitude": 0.0289
+      }
+    ],
+    "sample_size": 47
+  },
+  "Sector 66|4": {
+    "predicted_price": 37565300.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (2,851 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1485
+      },
+      {
+        "label": "Area (2,415 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1446
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1113
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0665
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0357
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0342
+      }
+    ],
+    "sample_size": 52
+  },
+  "Sector 67|2": {
+    "predicted_price": 5566212.5,
+    "top_factors": [
+      {
+        "label": "Area (820 sqft)",
+        "direction": "negative",
+        "magnitude": 0.7664
+      },
+      {
+        "label": "Super built-up area (800 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2862
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1571
+      },
+      {
+        "label": "Carpet area (550 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1393
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0637
+      },
+      {
+        "label": "Distance from city center (8.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0387
+      }
+    ],
+    "sample_size": 25
+  },
+  "Sector 67|3": {
+    "predicted_price": 31200336.0,
+    "top_factors": [
+      {
+        "label": "Area (2,358 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1699
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1122
+      },
+      {
+        "label": "Building height (21 floors)",
+        "direction": "positive",
+        "magnitude": 0.0678
+      },
+      {
+        "label": "Super built-up area (2,384 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0238
+      },
+      {
+        "label": "Locality: Sector 67",
+        "direction": "positive",
+        "magnitude": 0.0204
+      },
+      {
+        "label": "Distance from city center (8.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0184
+      }
+    ],
+    "sample_size": 81
+  },
+  "Sector 67|4": {
+    "predicted_price": 34827744.0,
+    "top_factors": [
+      {
+        "label": "Area (2,823 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2229
+      },
+      {
+        "label": "Super built-up area (2,847 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1491
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0859
+      },
+      {
+        "label": "Building height (13 floors)",
+        "direction": "negative",
+        "magnitude": 0.0637
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0614
+      },
+      {
+        "label": "Carpet area (2,400 sqft)",
+        "direction": "positive",
+        "magnitude": 0.034
+      }
+    ],
+    "sample_size": 60
+  },
+  "Sector 79|2": {
+    "predicted_price": 9633223.0,
+    "top_factors": [
+      {
+        "label": "Area (1,295 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1972
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1266
+      },
+      {
+        "label": "Distance from city center (12.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1091
+      },
+      {
+        "label": "Super built-up area (1,470 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1007
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0571
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.047
+      }
+    ],
+    "sample_size": 39
+  },
+  "Sector 79|3": {
+    "predicted_price": 18192816.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0855
+      },
+      {
+        "label": "Distance from city center (12.4 km)",
+        "direction": "negative",
+        "magnitude": 0.0651
+      },
+      {
+        "label": "Area (2,015 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0549
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0337
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0249
+      },
+      {
+        "label": "Nearby landmarks (10)",
+        "direction": "positive",
+        "magnitude": 0.0141
+      }
+    ],
+    "sample_size": 115
+  },
+  "Sector 79|4": {
+    "predicted_price": 25721936.0,
+    "top_factors": [
+      {
+        "label": "Area (2,675 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2047
+      },
+      {
+        "label": "Super built-up area (2,675 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1518
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1428
+      },
+      {
+        "label": "Distance from city center (12.6 km)",
+        "direction": "negative",
+        "magnitude": 0.0687
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0444
+      },
+      {
+        "label": "Carpet area (2,125 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0352
+      }
+    ],
+    "sample_size": 21
+  },
+  "Sector 81|2": {
+    "predicted_price": 10329914.0,
+    "top_factors": [
+      {
+        "label": "Area (1,267 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1856
+      },
+      {
+        "label": "Super built-up area (1,360 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1553
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.122
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1151
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0591
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0525
+      }
+    ],
+    "sample_size": 29
+  },
+  "Sector 81|3": {
+    "predicted_price": 25392852.0,
+    "top_factors": [
+      {
+        "label": "Building height (29 floors)",
+        "direction": "positive",
+        "magnitude": 0.1552
+      },
+      {
+        "label": "Area (2,092 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1275
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1126
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0295
+      },
+      {
+        "label": "Nearby landmarks (9)",
+        "direction": "positive",
+        "magnitude": 0.0166
+      },
+      {
+        "label": "Super built-up area (2,092 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0165
+      }
+    ],
+    "sample_size": 79
+  },
+  "Sector 81|4": {
+    "predicted_price": 34263796.0,
+    "top_factors": [
+      {
+        "label": "Area (3,185 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3204
+      },
+      {
+        "label": "Super built-up area (3,185 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1829
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1497
+      },
+      {
+        "label": "Building height (29 floors)",
+        "direction": "positive",
+        "magnitude": 0.1172
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0485
+      },
+      {
+        "label": "Carpet area (2,500 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0409
+      }
+    ],
+    "sample_size": 63
+  },
+  "Sector 83|2": {
+    "predicted_price": 9182168.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,245 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1982
+      },
+      {
+        "label": "Area (1,245 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1796
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1579
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1334
+      },
+      {
+        "label": "Building height (8 floors)",
+        "direction": "negative",
+        "magnitude": 0.0651
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0336
+      }
+    ],
+    "sample_size": 45
+  },
+  "Sector 83|3": {
+    "predicted_price": 14812648.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1432
+      },
+      {
+        "label": "Area (1,755 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1009
+      },
+      {
+        "label": "Super built-up area (1,755 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0516
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0288
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0273
+      },
+      {
+        "label": "Building height (16 floors)",
+        "direction": "negative",
+        "magnitude": 0.012
+      }
+    ],
+    "sample_size": 103
+  },
+  "Sector 85|2": {
+    "predicted_price": 13514133.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1812
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.1085
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1045
+      },
+      {
+        "label": "Area (1,640 sqft)",
+        "direction": "negative",
+        "magnitude": 0.077
+      },
+      {
+        "label": "Super built-up area (1,640 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0644
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0324
+      }
+    ],
+    "sample_size": 35
+  },
+  "Sector 85|3": {
+    "predicted_price": 18679604.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2085
+      },
+      {
+        "label": "Building height (25 floors)",
+        "direction": "positive",
+        "magnitude": 0.1088
+      },
+      {
+        "label": "Area (2,120 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0878
+      },
+      {
+        "label": "Locality: Sector 85",
+        "direction": "negative",
+        "magnitude": 0.0397
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0338
+      },
+      {
+        "label": "Super built-up area (2,120 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0295
+      }
+    ],
+    "sample_size": 71
+  },
+  "Sector 85|4": {
+    "predicted_price": 22588228.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2371
+      },
+      {
+        "label": "Area (2,599 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1686
+      },
+      {
+        "label": "Super built-up area (2,580 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1313
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.0666
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0384
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0326
+      }
+    ],
+    "sample_size": 47
+  },
+  "Sector 92|2": {
+    "predicted_price": 8073090.0,
+    "top_factors": [
+      {
+        "label": "Area (1,190 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2762
+      },
+      {
+        "label": "Super built-up area (1,190 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1806
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1305
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1242
+      },
+      {
+        "label": "Distance from city center (11.9 km)",
+        "direction": "negative",
+        "magnitude": 0.0816
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0486
+      }
+    ],
+    "sample_size": 45
+  },
+  "Sector 92|3": {
+    "predicted_price": 12012316.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1573
+      },
+      {
+        "label": "Area (1,565 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1133
+      },
+      {
+        "label": "Distance from city center (11.9 km)",
+        "direction": "negative",
+        "magnitude": 0.1041
+      },
+      {
+        "label": "Super built-up area (1,600 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0942
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0483
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.025
+      }
+    ],
+    "sample_size": 85
+  },
+  "Sector 92|4": {
+    "predicted_price": 18989512.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1882
+      },
+      {
+        "label": "Area (2,325 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1693
+      },
+      {
+        "label": "Distance from city center (12.2 km)",
+        "direction": "negative",
+        "magnitude": 0.0812
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0557
+      },
+      {
+        "label": "Super built-up area (2,325 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0369
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "negative",
+        "magnitude": 0.0343
+      }
+    ],
+    "sample_size": 56
+  },
+  "Sector-33 Sohna|2": {
+    "predicted_price": 10362594.0,
+    "top_factors": [
+      {
+        "label": "Area (1,255 sqft)",
+        "direction": "negative",
+        "magnitude": 0.204
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1246
+      },
+      {
+        "label": "Distance from city center (20.2 km)",
+        "direction": "negative",
+        "magnitude": 0.1143
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1059
+      },
+      {
+        "label": "Super built-up area (1,383 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0975
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0527
+      }
+    ],
+    "sample_size": 59
+  },
+  "Sector-33 Sohna|3": {
+    "predicted_price": 14499793.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (19.4 km)",
+        "direction": "negative",
+        "magnitude": 0.1464
+      },
+      {
+        "label": "Area (1,789 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0902
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0779
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.055
+      },
+      {
+        "label": "Building height (13 floors)",
+        "direction": "negative",
+        "magnitude": 0.0347
+      },
+      {
+        "label": "Super built-up area (1,789 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0223
+      }
+    ],
+    "sample_size": 98
+  },
+  "Sector-33 Sohna|4": {
+    "predicted_price": 26371672.0,
+    "top_factors": [
+      {
+        "label": "Area (2,407 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1655
+      },
+      {
+        "label": "Super built-up area (2,407 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0839
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0771
+      },
+      {
+        "label": "Distance from city center (19.4 km)",
+        "direction": "negative",
+        "magnitude": 0.0734
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0697
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0697
+      }
+    ],
+    "sample_size": 28
+  },
+  "Sohna|2": {
+    "predicted_price": 4240257.0,
+    "top_factors": [
+      {
+        "label": "Area (950 sqft)",
+        "direction": "negative",
+        "magnitude": 0.7407
+      },
+      {
+        "label": "Super built-up area (1,264 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1851
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.1601
+      },
+      {
+        "label": "Carpet area (730 sqft)",
+        "direction": "negative",
+        "magnitude": 0.141
+      },
+      {
+        "label": "Distance from city center (20.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1335
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0602
+      }
+    ],
+    "sample_size": 137
+  },
+  "Sohna|3": {
+    "predicted_price": 9659055.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (19.6 km)",
+        "direction": "negative",
+        "magnitude": 0.1912
+      },
+      {
+        "label": "Area (1,550 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1547
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1403
+      },
+      {
+        "label": "Super built-up area (1,720 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0691
+      },
+      {
+        "label": "Building height (12 floors)",
+        "direction": "negative",
+        "magnitude": 0.0357
+      },
+      {
+        "label": "Carpet area (1,064 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0342
+      }
+    ],
+    "sample_size": 69
+  },
+  "Sushant Lok Phase 1|3": {
+    "predicted_price": 23189260.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1376
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0613
+      },
+      {
+        "label": "Locality: Sushant Lok Phase 1",
+        "direction": "positive",
+        "magnitude": 0.041
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.038
+      },
+      {
+        "label": "Nearby landmarks (46)",
+        "direction": "negative",
+        "magnitude": 0.0289
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0272
+      }
+    ],
+    "sample_size": 40
+  },
+  "Sushant Lok Phase 1|4": {
+    "predicted_price": 31949372.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (3,285 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1651
+      },
+      {
+        "label": "Area (2,700 sqft)",
+        "direction": "positive",
+        "magnitude": 0.133
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1126
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0852
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0715
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.035
+      }
+    ],
+    "sample_size": 41
+  }
+}

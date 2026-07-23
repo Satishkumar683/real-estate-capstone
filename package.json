@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "beautifulsoup4": "^0.0.1-security",
-    "pandas": "^0.0.3",
-    "requests": "^0.3.0"
-  }
-}

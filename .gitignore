@@ -1,0 +1,62 @@
+# ==============================
+# Node.js / Next.js (frontend/)
+# ==============================
+node_modules/
+.next/
+out/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files -- never commit real secrets (Google OAuth client secret,
+# AUTH_SECRET, ML_SERVICE_URL if it ever points somewhere non-local, etc.)
+.env
+.env*.local
+.env.production
+
+# Vercel (if you ever deploy there)
+.vercel
+
+# ==============================
+# Python / ml-service/
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==============================
+# Editor / OS cruft
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ==============================
+# Large / regenerable data (optional -- currently commented out)
+# ==============================
+# Uncomment any of these if you'd rather not commit large files to git and
+# instead regenerate them by re-running the pipeline/model notebooks or the
+# scraper. Left commented by default since this is a portfolio project where
+# reviewers benefit from being able to clone and run it without re-scraping
+# or retraining first.
+
+# ml-service/data/raw/
+# ml-service/data/processed/
+# ml-service/app/data/
+# ml-service/app/models/*.joblib
+# ml-service/notebooks/**/checkpoint_*.csv

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  /* Token NAMES stay the same as before (navy/charcoal/gold/cream) so every
+     existing component -- Button, Badge, PropertyCard, forms, etc -- picks up
+     the new palette automatically with zero JSX changes. Only the values
+     change, from the old navy/cream/gold direction to this warm ivory/
+     beige/champagne/gold luxury palette. */
+  --color-navy: #4A3B2C;      /* was deep navy blue -- now warm dark brown (headings, dark surfaces) */
+  --color-charcoal: #6B5D4F;  /* was blue-gray -- now warm taupe (body text) */
+  --color-gold: #B8935A;      /* was brighter gold -- now a softer, warmer champagne-gold */
+  --color-cream: #FBF7F0;     /* was cream -- now ivory (barely changed, already warm) */
+
+  /* New tokens this palette specifically calls for */
+  --color-beige: #F1E8D9;     /* secondary surfaces, alternating sections, subtle borders */
+  --color-champagne: #E3CBA0; /* accent tint -- glass borders, highlight backgrounds */
+
+  --font-display: var(--font-fraunces), serif;
+  --font-sans: var(--font-inter), sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
+
+/* Glassmorphism utility -- used by the sticky header once scrolled, and
+   available for any card that wants the effect (e.g. hero-overlaid cards). */
+.glass {
+  background-color: color-mix(in srgb, var(--color-cream) 70%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid color-mix(in srgb, var(--color-champagne) 50%, transparent);
+}
+
+/* Subtle warmth texture -- a soft radial vignette, not a busy pattern.
+   Applied to full-bleed sections that want depth without a photo. */
+.warm-texture {
+  background-image: radial-gradient(
+    ellipse at top,
+    color-mix(in srgb, var(--color-champagne) 25%, transparent),
+    transparent 60%
+  );
+}
