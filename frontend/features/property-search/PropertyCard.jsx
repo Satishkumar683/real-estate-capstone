@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Badge from '@/shared/ui/Badge';
+import ImagePlaceholder from '@/shared/ui/ImagePlaceholder';
 import { formatINR, formatArea, formatPricePerSqft, getValueBadge } from '@/shared/lib/format';
 
 export default function PropertyCard({ listing, cityLabel }) {
@@ -28,9 +29,7 @@ export default function PropertyCard({ listing, cityLabel }) {
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-charcoal text-sm">
-            No image available
-          </div>
+          <ImagePlaceholder label={`${listing.bhk} BHK ${listing.property_type}`} />
         )}
         <Badge tone={badge.tone} className="absolute top-3 left-3 shadow-sm">
           {badge.label}

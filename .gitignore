@@ -36,6 +36,8 @@ ENV/
 
 # Jupyter
 .ipynb_checkpoints/
+.txt
+.md
 
 # ==============================
 # Editor / OS cruft
