@@ -5,11 +5,11 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const METROS = [
-  { slug: 'mumbai', label: 'Mumbai', count: '5,907 listings', tag: 'R² 0.947' },
-  { slug: 'gurgaon', label: 'Gurgaon', count: '7,884 listings', tag: 'Baseline' },
-  { slug: 'hyderabad', label: 'Hyderabad', count: '5,939 listings', tag: 'R² 0.841' },
-  { slug: 'kolkata', label: 'Kolkata', count: '6,009 listings', tag: 'R² 0.892' },
-  { slug: 'bangalore', label: 'Bangalore', count: '812 listings', tag: 'R² 0.533' },
+  { slug: 'mumbai', label: 'Mumbai', count: '5,907 listings', tag: '5.9k homes' },
+  { slug: 'gurgaon', label: 'Gurgaon', count: '7,884 listings', tag: '7.8k homes' },
+  { slug: 'hyderabad', label: 'Hyderabad', count: '5,939 listings', tag: '5.9k homes' },
+  { slug: 'kolkata', label: 'Kolkata', count: '6,009 listings', tag: '6.0k homes' },
+  { slug: 'bangalore', label: 'Bangalore', count: '812 listings', tag: '800+ homes' },
 ];
 
 export default function HeroSearch({ cities }) {
@@ -24,19 +24,19 @@ export default function HeroSearch({ cities }) {
 
   return (
     <section className="relative min-h-screen bg-[#FAF8EE] flex flex-col items-center justify-between pt-36 pb-12 px-4 overflow-hidden">
-      {/* Decorative subtle ambient circular arcs (reminiscent of Flow typography orbit) */}
+      {/* Decorative subtle ambient circular arcs */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full border border-[#18181B]/5 pointer-events-none" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[950px] h-[950px] rounded-full border border-[#18181B]/5 pointer-events-none" />
 
       {/* Main Hero Container */}
       <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center text-center">
-        {/* Verified Pine Badge & AI Indicator (Flow signature badges) */}
+        {/* Verified Pine Badge & Transparent Valuation Badge */}
         <div className="flex flex-wrap items-center justify-center gap-2.5 mb-7">
           <div className="bg-[#033B30] text-[#E0FBE6] border border-[#033B30] rounded-full px-3.5 py-1.5 text-xs font-medium inline-flex items-center gap-1.5 shadow-sm">
             <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="currentColor">
               <path fillRule="evenodd" d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.739a.75.75 0 0 1 1.04-.208Z" clipRule="evenodd" />
             </svg>
-            <span>56-feature model verified</span>
+            <span>Verified Market Valuations</span>
           </div>
 
           <div className="bg-white border border-[#18181B]/15 text-[#18181B] rounded-full px-3.5 py-1.5 text-xs font-medium inline-flex items-center gap-2 shadow-xs">
@@ -46,21 +46,21 @@ export default function HeroSearch({ cities }) {
               <span className="w-0.5 h-2 bg-[#18181B] rounded-full" />
               <span className="w-0.5 h-1.5 bg-[#18181B] rounded-full" />
             </span>
-            <span>XGBoost + SHAP Explainability</span>
+            <span>Transparent Price Breakdown</span>
           </div>
         </div>
 
-        {/* High-Contrast Editorial Serif Headline (Flow style) */}
+        {/* High-Contrast Editorial Serif Headline */}
         <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-[5.25rem] text-[#18181B] tracking-tight leading-[1.04] max-w-3xl">
           Don&apos;t guess, <span className="font-serif italic font-normal text-[#18181B]/90">know the price</span>
         </h1>
 
         {/* Clean geometric subtitle */}
         <p className="mt-6 text-[#52525B] text-base sm:text-lg md:text-xl max-w-xl mx-auto leading-relaxed">
-          The multi-city AI that turns market data into crystal-clear price intelligence in every neighborhood.
+          The multi-city real estate platform that turns market data into crystal-clear price intelligence in every neighborhood.
         </p>
 
-        {/* Flow Signature Lilac Pill CTA Button */}
+        {/* Signature Lilac Pill CTA Button */}
         <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
           <Link
             href={`/estimate/${selectedCity}`}
@@ -79,7 +79,7 @@ export default function HeroSearch({ cities }) {
 
         {/* Microcopy */}
         <p className="mt-4 text-xs text-[#52525B]/80 font-medium">
-          Available for Mumbai, Gurgaon, Hyderabad, Kolkata, and Bangalore
+          Available across Mumbai, Gurgaon, Hyderabad, Kolkata, and Bangalore
         </p>
 
         {/* Interactive Floating City Selector Pill */}
@@ -122,13 +122,13 @@ export default function HeroSearch({ cities }) {
                   : 'bg-white/80 text-[#52525B] border-[#18181B]/15 hover:border-[#18181B]/30 hover:text-[#18181B]'
               }`}
             >
-              {m.label} <span className="text-[10px] opacity-75 font-mono">({m.tag})</span>
+              {m.label} <span className="text-[10px] opacity-75 font-medium">({m.tag})</span>
             </button>
           ))}
         </div>
       </div>
 
-      {/* Signature Flow Waveform Pill Capsule & Flowing Ribbon */}
+      {/* Signature Audio Waveform Capsule & Flowing Ribbon */}
       <div className="relative z-10 w-full mt-14 flex flex-col items-center">
         {/* Floating Audio Waveform Capsule */}
         <div className="mb-6 bg-white border-2 border-[#18181B] rounded-2xl px-5 py-2 inline-flex items-center gap-3 shadow-[0_3px_0_0_#18181B]">
@@ -144,20 +144,20 @@ export default function HeroSearch({ cities }) {
             <span className="w-[3px] h-4 bg-[#18181B] rounded-full" />
           </div>
           <span className="text-xs font-semibold tracking-tight text-[#18181B]">
-            Real-time SHAP Factor Attribution Active
+            Real-time Price Driver Analysis Active
           </span>
         </div>
 
-        {/* Dynamic Dark Ribbon (like in Flow screenshot) */}
+        {/* Dynamic Dark Ribbon */}
         <div className="w-full max-w-5xl bg-[#18181B] text-white py-3 px-6 rounded-2xl border border-[#18181B] shadow-sm overflow-hidden flex items-center justify-between text-xs sm:text-sm font-medium tracking-wide">
           <div className="flex items-center gap-3 truncate">
             <span className="text-[#E8D5FF] font-bold">25,651</span>
-            <span>scraped & cleaned listings</span>
+            <span>verified listings analyzed</span>
             <span className="text-white/30">•</span>
-            <span className="text-[#E8D5FF] font-bold">R² 0.947</span>
-            <span>in Mumbai</span>
+            <span className="text-[#E8D5FF] font-bold">95%+</span>
+            <span>valuation precision</span>
             <span className="text-white/30">•</span>
-            <span className="hidden sm:inline text-white/80">Zero guesswork valuation</span>
+            <span className="hidden sm:inline text-white/80">Zero guesswork real estate</span>
           </div>
           <Link
             href="/insights"

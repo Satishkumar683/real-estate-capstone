@@ -28,11 +28,11 @@ export default function EstimatePageClient({ city }) {
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <span className="bg-[#033B30] text-[#E0FBE6] border border-[#033B30] rounded-full px-3 py-1 text-xs font-semibold inline-flex items-center gap-1.5">
           <span>✓</span>
-          <span>{cityLabel} XGBoost Model</span>
+          <span>{cityLabel} Market Intelligence</span>
         </span>
         <span className="bg-white border border-[#18181B]/15 text-[#18181B] rounded-full px-3 py-1 text-xs font-medium inline-flex items-center gap-1.5">
           <span>⚡</span>
-          <span>SHAP Factor Attribution</span>
+          <span>Transparent Price Drivers</span>
         </span>
       </div>
 
@@ -40,7 +40,7 @@ export default function EstimatePageClient({ city }) {
         What is your property <span className="italic font-normal">really worth?</span>
       </h1>
       <p className="mt-3 text-[#52525B] max-w-xl text-base sm:text-lg leading-relaxed">
-        Get an instantaneous ML valuation with clear factor attribution, trained on verified {cityLabel} transactions.
+        Get an instant property valuation with a clear breakdown of what&apos;s driving the price, based on thousands of verified {cityLabel} transactions.
       </p>
 
       {/* Metro switcher */}

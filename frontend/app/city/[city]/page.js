@@ -22,9 +22,9 @@ export default async function CityHubPage({ params }) {
       href: `/search/${city}`,
     },
     {
-      title: 'Price Estimation & SHAP',
-      description: "Get an instant valuation for any property in this market, with transparent factor attribution.",
-      stat: 'XGBoost Trained',
+      title: 'Property Valuation & Price Drivers',
+      description: "Get an instant valuation for any property in this market, with a transparent breakdown of what drives the price.",
+      stat: 'Instant Valuation',
       href: `/estimate/${city}`,
     },
     {
@@ -62,7 +62,7 @@ export default async function CityHubPage({ params }) {
         Everything about <span className="italic font-normal">{cityInfo.label}</span> real estate.
       </h1>
       <p className="mt-3 text-[#52525B] max-w-2xl text-base sm:text-lg leading-relaxed">
-        Explore listings, get transparent machine-learning valuations, and analyze neighborhood trends across {cityInfo.label}.
+        Explore listings, get transparent fair-market valuations, and analyze neighborhood trends across {cityInfo.label}.
       </p>
 
       {/* Switcher for other cities */}

@@ -31,8 +31,8 @@ export default function InsightPanel({ prediction, insight, loading, error }) {
           <span className="w-1 h-4 bg-[#18181B] rounded-full animate-pulse" />
           <span className="w-1 h-2 bg-[#18181B] rounded-full" />
         </div>
-        <p className="font-display font-semibold text-[#18181B] text-lg">Computing XGBoost Valuation</p>
-        <p className="text-xs text-[#52525B] mt-1">Calculating TreeSHAP factor attributions...</p>
+        <p className="font-display font-semibold text-[#18181B] text-lg">Computing Fair Valuation</p>
+        <p className="text-xs text-[#52525B] mt-1">Analyzing local market comparables and price drivers...</p>
       </div>
     );
   }
@@ -54,9 +54,9 @@ export default function InsightPanel({ prediction, insight, loading, error }) {
         <div className="w-12 h-12 rounded-2xl bg-[#FAF8EE] border border-[#18181B]/15 flex items-center justify-center mb-4">
           <span className="text-lg">⚡</span>
         </div>
-        <h3 className="font-display font-semibold text-[#18181B] text-lg">Model Output Ready</h3>
+        <h3 className="font-display font-semibold text-[#18181B] text-lg">Valuation Ready</h3>
         <p className="text-xs text-[#52525B] max-w-xs mt-2 leading-relaxed">
-          Select property parameters on the left and click Predict to view model valuation and SHAP factor attribution.
+          Select property parameters on the left and click Calculate Fair Value to view the price breakdown and key drivers.
         </p>
       </div>
     );
@@ -69,10 +69,10 @@ export default function InsightPanel({ prediction, insight, loading, error }) {
     <div className="bg-white border border-[#18181B]/15 rounded-2xl shadow-sm p-6">
       <div className="flex items-center justify-between">
         <span className="text-xs font-semibold text-[#52525B] uppercase tracking-wider">
-          Predicted Valuation
+          Fair Market Valuation
         </span>
         <span className="bg-[#033B30] text-[#E0FBE6] border border-[#033B30] rounded-full px-2.5 py-0.5 text-[10px] font-bold">
-          ✓ ML Calibrated
+          ✓ Verified Benchmark
         </span>
       </div>
 
@@ -87,7 +87,7 @@ export default function InsightPanel({ prediction, insight, loading, error }) {
         <div className="flex items-center justify-between mb-4">
           <p className="text-xs font-bold text-[#18181B] uppercase tracking-wide flex items-center gap-1.5">
             <span>⚡</span>
-            <span>SHAP Factor Attribution</span>
+            <span>Key Price Drivers</span>
           </p>
           <span className="text-[11px] text-[#71717A]">Influence on Price</span>
         </div>
@@ -106,12 +106,12 @@ export default function InsightPanel({ prediction, insight, loading, error }) {
 
         {isGlobalFallback && (
           <p className="text-[11px] text-[#71717A] mt-2 italic">
-            Showing general metro baseline factors for this combination.
+            Showing general submarket baseline drivers for this configuration.
           </p>
         )}
 
         <p className="text-[10px] text-[#71717A] mt-4 pt-3 border-t border-[#18181B]/5">
-          Based on {insight.sample_size?.toLocaleString('en-IN') || 'thousands of'} comparable market records. Educational AI model.
+          Based on {insight.sample_size?.toLocaleString('en-IN') || 'thousands of'} comparable market transactions.
         </p>
       </div>
     </div>

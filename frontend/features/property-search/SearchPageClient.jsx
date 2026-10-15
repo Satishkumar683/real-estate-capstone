@@ -33,7 +33,7 @@ export default function SearchPageClient({ city }) {
               <span>{cityLabel} Listings Verified</span>
             </span>
             <span className="bg-white border border-[#18181B]/15 text-[#18181B] rounded-full px-3 py-1 text-xs font-medium">
-              ML Value Scoring Active
+              Fair Value Scoring Active
             </span>
           </div>
 
@@ -41,7 +41,7 @@ export default function SearchPageClient({ city }) {
             Find your next address in <span className="italic font-normal">{cityLabel}</span>.
           </h1>
           <p className="mt-3 text-base max-w-xl text-[#52525B] leading-relaxed">
-            Every listing is checked against an XGBoost valuation model trained on authentic market transactions
+            Every listing is evaluated against verified local transactions and submarket trends
             &mdash; so you always know if an asking price is fair.
           </p>
 

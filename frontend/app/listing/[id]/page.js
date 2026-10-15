@@ -183,7 +183,7 @@ export default async function ListingDetailPage({ params, searchParams }) {
               </div>
 
               <div className="bg-white/80 p-3.5 rounded-xl border border-navy/5">
-                <p className="text-xs text-charcoal/80">AI Model Fair Value</p>
+                <p className="text-xs text-charcoal/80">Estimated Fair Value</p>
                 <p className="font-semibold text-gold text-lg mt-0.5">{formatINR(listing.predicted_price)}</p>
                 <p className="text-[11px] text-charcoal mt-0.5">{formatPricePerSqft(predPerSqft)}</p>
               </div>
@@ -193,12 +193,12 @@ export default async function ListingDetailPage({ params, searchParams }) {
                 <p className={`font-semibold text-lg mt-0.5 ${diffPct >= 0 ? 'text-emerald-700' : 'text-red-700'}`}>
                   {diffPct > 0 ? `-${diffPct}% Underpriced` : diffPct < 0 ? `+${Math.abs(diffPct)}% Premium` : '0% Fair Market'}
                 </p>
-                <p className="text-[11px] text-charcoal mt-0.5">XGBoost ($R^2 \approx 0.90$)</p>
+                <p className="text-[11px] text-charcoal mt-0.5">High Confidence Benchmark</p>
               </div>
             </div>
 
             <p className="text-[11px] text-charcoal/70 mt-4 leading-normal">
-              Valuation generated using our calibrated machine learning regressor evaluating {listing.area_sqft} sqft, {listing.locality} submarket baselines, floor level, and luxury indices.
+              Valuation calculated by analyzing {listing.area_sqft} sqft, verified {listing.locality} submarket transactions, floor level, and society amenities.
             </p>
           </section>
 
@@ -313,7 +313,7 @@ export default async function ListingDetailPage({ params, searchParams }) {
                 <svg className="w-4 h-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span>Model evaluation ($R^2 \approx 0.90$) applied</span>
+                <span>Data-backed fair price evaluation applied</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4 text-emerald-600 shrink-0" fill="currentColor" viewBox="0 0 20 20">

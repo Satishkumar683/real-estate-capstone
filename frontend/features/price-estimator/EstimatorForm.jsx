@@ -82,7 +82,7 @@ export default function EstimatorForm({ predict, loading }) {
 
       <div className="md:col-span-2 mt-2">
         <Button type="submit" disabled={loading || !form.locality} className="w-full">
-          {loading ? 'Running XGBoost Model…' : '⚡ Predict Property Price'}
+          {loading ? 'Calculating Fair Value…' : '⚡ Calculate Fair Value'}
         </Button>
       </div>
     </form>
