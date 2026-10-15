@@ -1,0 +1,1982 @@
+{
+  "__global__": {
+    "predicted_price": 9388503.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1631
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1495
+      },
+      {
+        "label": "Distance from city center (19.6 km)",
+        "direction": "positive",
+        "magnitude": 0.1104
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0668
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0652
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0484
+      }
+    ],
+    "sample_size": 5907
+  },
+  "Adibatla|3": {
+    "predicted_price": 3075649.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.4167
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2236
+      },
+      {
+        "label": "Distance from city center (17.8 km)",
+        "direction": "positive",
+        "magnitude": 0.1232
+      },
+      {
+        "label": "Building height (3 floors)",
+        "direction": "negative",
+        "magnitude": 0.0988
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0606
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.0481
+      }
+    ],
+    "sample_size": 98
+  },
+  "Bachupally|2": {
+    "predicted_price": 5891833.5,
+    "top_factors": [
+      {
+        "label": "Area (1,165 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1982
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1212
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0492
+      },
+      {
+        "label": "Distance from city center (22.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0487
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0423
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0331
+      }
+    ],
+    "sample_size": 59
+  },
+  "Bachupally|3": {
+    "predicted_price": 7722779.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1644
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0516
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0443
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0428
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0403
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "negative",
+        "magnitude": 0.0263
+      }
+    ],
+    "sample_size": 52
+  },
+  "Bachupally|4": {
+    "predicted_price": 14042856.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2115
+      },
+      {
+        "label": "Area (1,914 sqft)",
+        "direction": "positive",
+        "magnitude": 0.173
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0762
+      },
+      {
+        "label": "Building height (33 floors)",
+        "direction": "positive",
+        "magnitude": 0.0731
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0516
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0502
+      }
+    ],
+    "sample_size": 8
+  },
+  "Beeramguda|2": {
+    "predicted_price": 4791648.5,
+    "top_factors": [
+      {
+        "label": "Area (1,138 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2845
+      },
+      {
+        "label": "Distance from city center (24.1 km)",
+        "direction": "negative",
+        "magnitude": 0.0774
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0537
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "positive",
+        "magnitude": 0.0536
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.0464
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0404
+      }
+    ],
+    "sample_size": 38
+  },
+  "Beeramguda|3": {
+    "predicted_price": 15170516.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.185
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.1516
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0609
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "positive",
+        "magnitude": 0.0538
+      },
+      {
+        "label": "Area (1,655 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0491
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0442
+      }
+    ],
+    "sample_size": 23
+  },
+  "Beeramguda|4": {
+    "predicted_price": 14360444.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2164
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.108
+      },
+      {
+        "label": "Building height (2 floors)",
+        "direction": "positive",
+        "magnitude": 0.079
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0614
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0573
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0555
+      }
+    ],
+    "sample_size": 34
+  },
+  "Financial District|3": {
+    "predicted_price": 18079840.0,
+    "top_factors": [
+      {
+        "label": "Area (2,094 sqft)",
+        "direction": "positive",
+        "magnitude": 0.214
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1915
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1055
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0761
+      },
+      {
+        "label": "Distance from city center (15.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0733
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0509
+      }
+    ],
+    "sample_size": 22
+  },
+  "Gachibowli|2": {
+    "predicted_price": 13944660.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1904
+      },
+      {
+        "label": "Building height (35 floors)",
+        "direction": "positive",
+        "magnitude": 0.1495
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0904
+      },
+      {
+        "label": "Distance from city center (16.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0825
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0633
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0456
+      }
+    ],
+    "sample_size": 62
+  },
+  "Gachibowli|3": {
+    "predicted_price": 18776192.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.224
+      },
+      {
+        "label": "Area (1,754 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1218
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.0951
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0917
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0892
+      },
+      {
+        "label": "Distance from city center (16.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0671
+      }
+    ],
+    "sample_size": 104
+  },
+  "Gachibowli|4": {
+    "predicted_price": 28181996.0,
+    "top_factors": [
+      {
+        "label": "Area (2,713 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4637
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2633
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1089
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0977
+      },
+      {
+        "label": "Building height (35 floors)",
+        "direction": "positive",
+        "magnitude": 0.0868
+      },
+      {
+        "label": "Distance from city center (16.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0663
+      }
+    ],
+    "sample_size": 16
+  },
+  "Hi Tech City|2": {
+    "predicted_price": 12234318.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1794
+      },
+      {
+        "label": "Building height (31 floors)",
+        "direction": "positive",
+        "magnitude": 0.1291
+      },
+      {
+        "label": "Distance from city center (13.4 km)",
+        "direction": "positive",
+        "magnitude": 0.1099
+      },
+      {
+        "label": "Area (1,250 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1033
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0833
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.055
+      }
+    ],
+    "sample_size": 23
+  },
+  "Hi Tech City|3": {
+    "predicted_price": 19082424.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.248
+      },
+      {
+        "label": "Area (1,855 sqft)",
+        "direction": "positive",
+        "magnitude": 0.193
+      },
+      {
+        "label": "Building height (31 floors)",
+        "direction": "positive",
+        "magnitude": 0.1062
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0855
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.083
+      },
+      {
+        "label": "Distance from city center (12.4 km)",
+        "direction": "positive",
+        "magnitude": 0.07
+      }
+    ],
+    "sample_size": 50
+  },
+  "Kandi|3": {
+    "predicted_price": 4332652.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.3245
+      },
+      {
+        "label": "Distance from city center (45.8 km)",
+        "direction": "negative",
+        "magnitude": 0.1629
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1025
+      },
+      {
+        "label": "Listing highlights count",
+        "direction": "positive",
+        "magnitude": 0.066
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.055
+      },
+      {
+        "label": "Locality: Kandi",
+        "direction": "positive",
+        "magnitude": 0.0512
+      }
+    ],
+    "sample_size": 91
+  },
+  "Kokapet|2": {
+    "predicted_price": 11072661.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1322
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1145
+      },
+      {
+        "label": "Distance from city center (15.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0911
+      },
+      {
+        "label": "Area (1,270 sqft)",
+        "direction": "negative",
+        "magnitude": 0.066
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.066
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0509
+      }
+    ],
+    "sample_size": 21
+  },
+  "Kokapet|3": {
+    "predicted_price": 18569836.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2381
+      },
+      {
+        "label": "Area (1,957 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1935
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1042
+      },
+      {
+        "label": "Building height (32 floors)",
+        "direction": "positive",
+        "magnitude": 0.1003
+      },
+      {
+        "label": "Distance from city center (15.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0883
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0784
+      }
+    ],
+    "sample_size": 135
+  },
+  "Kokapet|4": {
+    "predicted_price": 23732616.0,
+    "top_factors": [
+      {
+        "label": "Area (2,708 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4474
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2672
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1099
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0825
+      },
+      {
+        "label": "Building height (36 floors)",
+        "direction": "positive",
+        "magnitude": 0.0814
+      },
+      {
+        "label": "Distance from city center (15.9 km)",
+        "direction": "positive",
+        "magnitude": 0.0685
+      }
+    ],
+    "sample_size": 9
+  },
+  "Kollur|2": {
+    "predicted_price": 5749276.5,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1342
+      },
+      {
+        "label": "Distance from city center (25.9 km)",
+        "direction": "negative",
+        "magnitude": 0.1283
+      },
+      {
+        "label": "Area (1,295 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0977
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0742
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0497
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0467
+      }
+    ],
+    "sample_size": 42
+  },
+  "Kollur|3": {
+    "predicted_price": 7477946.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.3151
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1517
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0857
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0592
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0398
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0365
+      }
+    ],
+    "sample_size": 119
+  },
+  "Kompally|2": {
+    "predicted_price": 5846233.5,
+    "top_factors": [
+      {
+        "label": "Area (1,220 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2119
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1061
+      },
+      {
+        "label": "Distance from city center (17.1 km)",
+        "direction": "positive",
+        "magnitude": 0.0626
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0494
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.034
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0324
+      }
+    ],
+    "sample_size": 33
+  },
+  "Kompally|3": {
+    "predicted_price": 7832337.5,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1627
+      },
+      {
+        "label": "Distance from city center (17.1 km)",
+        "direction": "positive",
+        "magnitude": 0.0784
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0695
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0435
+      },
+      {
+        "label": "Nearby hospitals",
+        "direction": "negative",
+        "magnitude": 0.0308
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "negative",
+        "magnitude": 0.0291
+      }
+    ],
+    "sample_size": 56
+  },
+  "Kondapur|2": {
+    "predicted_price": 9938844.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1135
+      },
+      {
+        "label": "Locality: Kondapur",
+        "direction": "positive",
+        "magnitude": 0.1078
+      },
+      {
+        "label": "Distance from city center (16.5 km)",
+        "direction": "positive",
+        "magnitude": 0.1028
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0792
+      },
+      {
+        "label": "Area (1,297 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0671
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.0663
+      }
+    ],
+    "sample_size": 79
+  },
+  "Kondapur|3": {
+    "predicted_price": 20063008.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2048
+      },
+      {
+        "label": "Area (1,855 sqft)",
+        "direction": "positive",
+        "magnitude": 0.178
+      },
+      {
+        "label": "Locality: Kondapur",
+        "direction": "positive",
+        "magnitude": 0.1217
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0973
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0836
+      },
+      {
+        "label": "Distance from city center (16.5 km)",
+        "direction": "positive",
+        "magnitude": 0.0738
+      }
+    ],
+    "sample_size": 207
+  },
+  "Maheshwaram|3": {
+    "predicted_price": 2892323.75,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.4202
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2137
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.066
+      },
+      {
+        "label": "Distance from city center (24.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0261
+      },
+      {
+        "label": "Furnishing: Unknown",
+        "direction": "negative",
+        "magnitude": 0.0245
+      },
+      {
+        "label": "Nearby hospitals",
+        "direction": "positive",
+        "magnitude": 0.0231
+      }
+    ],
+    "sample_size": 148
+  },
+  "Manikonda|2": {
+    "predicted_price": 7496668.5,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1357
+      },
+      {
+        "label": "Area (1,250 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1299
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.101
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0829
+      },
+      {
+        "label": "Distance from city center (11.9 km)",
+        "direction": "positive",
+        "magnitude": 0.0796
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0479
+      }
+    ],
+    "sample_size": 40
+  },
+  "Manikonda|3": {
+    "predicted_price": 9188527.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1215
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.0708
+      },
+      {
+        "label": "Distance from city center (11.9 km)",
+        "direction": "positive",
+        "magnitude": 0.0645
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0599
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "positive",
+        "magnitude": 0.0536
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0448
+      }
+    ],
+    "sample_size": 75
+  },
+  "Miyapur|2": {
+    "predicted_price": 6527539.0,
+    "top_factors": [
+      {
+        "label": "Area (1,210 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2073
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.0991
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0602
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0485
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "positive",
+        "magnitude": 0.0458
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0434
+      }
+    ],
+    "sample_size": 60
+  },
+  "Miyapur|3": {
+    "predicted_price": 8984599.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1428
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0628
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0571
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0496
+      },
+      {
+        "label": "Distance from city center (19.9 km)",
+        "direction": "positive",
+        "magnitude": 0.045
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "positive",
+        "magnitude": 0.044
+      }
+    ],
+    "sample_size": 69
+  },
+  "Mokila|3": {
+    "predicted_price": 10238682.0,
+    "top_factors": [
+      {
+        "label": "Locality: Mokila",
+        "direction": "positive",
+        "magnitude": 0.3421
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.253
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2167
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1096
+      },
+      {
+        "label": "Listing highlights count",
+        "direction": "positive",
+        "magnitude": 0.0907
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0492
+      }
+    ],
+    "sample_size": 66
+  },
+  "Nallagandla|2": {
+    "predicted_price": 11918176.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1564
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0955
+      },
+      {
+        "label": "Distance from city center (21.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0665
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0612
+      },
+      {
+        "label": "Building height (18 floors)",
+        "direction": "positive",
+        "magnitude": 0.0592
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0465
+      }
+    ],
+    "sample_size": 44
+  },
+  "Nallagandla|3": {
+    "predicted_price": 15968707.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2035
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0934
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.08
+      },
+      {
+        "label": "Area (1,684 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0783
+      },
+      {
+        "label": "Distance from city center (21.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0535
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0521
+      }
+    ],
+    "sample_size": 112
+  },
+  "Nanakramguda|3": {
+    "predicted_price": 21334528.0,
+    "top_factors": [
+      {
+        "label": "Area (1,925 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2067
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1792
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1142
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0899
+      },
+      {
+        "label": "Distance from city center (15.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0753
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.0713
+      }
+    ],
+    "sample_size": 50
+  },
+  "Narsingi|2": {
+    "predicted_price": 9500875.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1308
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1113
+      },
+      {
+        "label": "Area (1,255 sqft)",
+        "direction": "negative",
+        "magnitude": 0.108
+      },
+      {
+        "label": "Distance from city center (13.2 km)",
+        "direction": "positive",
+        "magnitude": 0.1
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0575
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.049
+      }
+    ],
+    "sample_size": 37
+  },
+  "Narsingi|3": {
+    "predicted_price": 13974188.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1845
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1236
+      },
+      {
+        "label": "Area (1,715 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0943
+      },
+      {
+        "label": "Distance from city center (13.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0895
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0609
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0538
+      }
+    ],
+    "sample_size": 97
+  },
+  "Osman Nagar|2": {
+    "predicted_price": 6895376.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1348
+      },
+      {
+        "label": "Area (1,262 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1142
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0746
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0556
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.052
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0433
+      }
+    ],
+    "sample_size": 11
+  },
+  "Osman Nagar|3": {
+    "predicted_price": 9902948.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1847
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0767
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.07
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0693
+      },
+      {
+        "label": "Area (1,679 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0496
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0402
+      }
+    ],
+    "sample_size": 39
+  },
+  "Other|1": {
+    "predicted_price": 5211349.5,
+    "top_factors": [
+      {
+        "label": "Area (661 sqft)",
+        "direction": "negative",
+        "magnitude": 0.5833
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.1857
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.1122
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1003
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.071
+      },
+      {
+        "label": "Distance from city center (15.3 km)",
+        "direction": "positive",
+        "magnitude": 0.069
+      }
+    ],
+    "sample_size": 10
+  },
+  "Other|2": {
+    "predicted_price": 5919125.5,
+    "top_factors": [
+      {
+        "label": "Area (1,200 sqft)",
+        "direction": "negative",
+        "magnitude": 0.239
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.132
+      },
+      {
+        "label": "Distance from city center (17.4 km)",
+        "direction": "positive",
+        "magnitude": 0.056
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0476
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0414
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0358
+      }
+    ],
+    "sample_size": 680
+  },
+  "Other|3": {
+    "predicted_price": 6735490.5,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.3109
+      },
+      {
+        "label": "Distance from city center (20.9 km)",
+        "direction": "positive",
+        "magnitude": 0.2166
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1871
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0447
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.0364
+      },
+      {
+        "label": "Furnishing: Unknown",
+        "direction": "negative",
+        "magnitude": 0.0216
+      }
+    ],
+    "sample_size": 2035
+  },
+  "Other|4": {
+    "predicted_price": 14213810.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2246
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.076
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.0748
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0737
+      },
+      {
+        "label": "Distance from city center (17.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0503
+      },
+      {
+        "label": "Building height (2 floors)",
+        "direction": "positive",
+        "magnitude": 0.0381
+      }
+    ],
+    "sample_size": 125
+  },
+  "Other|5": {
+    "predicted_price": 13410807.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2085
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.0928
+      },
+      {
+        "label": "5 BHK",
+        "direction": "positive",
+        "magnitude": 0.0826
+      },
+      {
+        "label": "5 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0727
+      },
+      {
+        "label": "Distance from city center (18.5 km)",
+        "direction": "positive",
+        "magnitude": 0.057
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0505
+      }
+    ],
+    "sample_size": 13
+  },
+  "Patancheru|2": {
+    "predicted_price": 4587181.5,
+    "top_factors": [
+      {
+        "label": "Area (1,189 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2243
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1484
+      },
+      {
+        "label": "Distance from city center (28.9 km)",
+        "direction": "negative",
+        "magnitude": 0.1264
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0457
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0436
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0396
+      }
+    ],
+    "sample_size": 37
+  },
+  "Patancheru|3": {
+    "predicted_price": 13599126.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.27
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.1387
+      },
+      {
+        "label": "Area (1,721 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1345
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1041
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0911
+      },
+      {
+        "label": "Distance from city center (28.4 km)",
+        "direction": "negative",
+        "magnitude": 0.0575
+      }
+    ],
+    "sample_size": 43
+  },
+  "Patancheru|4": {
+    "predicted_price": 14626846.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.2376
+      },
+      {
+        "label": "Property type: Independent House/Villa",
+        "direction": "positive",
+        "magnitude": 0.1457
+      },
+      {
+        "label": "Area (1,620 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0788
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.069
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0613
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.0517
+      }
+    ],
+    "sample_size": 9
+  },
+  "Puppalaguda|2": {
+    "predicted_price": 14476995.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1735
+      },
+      {
+        "label": "Building height (31 floors)",
+        "direction": "positive",
+        "magnitude": 0.1522
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1235
+      },
+      {
+        "label": "Distance from city center (12.5 km)",
+        "direction": "positive",
+        "magnitude": 0.098
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0596
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0451
+      }
+    ],
+    "sample_size": 31
+  },
+  "Puppalaguda|3": {
+    "predicted_price": 15169272.0,
+    "top_factors": [
+      {
+        "label": "Area (2,020 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2058
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1995
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0968
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0701
+      },
+      {
+        "label": "Distance from city center (10.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0358
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0302
+      }
+    ],
+    "sample_size": 99
+  },
+  "Sadashivpet|3": {
+    "predicted_price": 2978103.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.3697
+      },
+      {
+        "label": "Distance from city center (62.3 km)",
+        "direction": "negative",
+        "magnitude": 0.2582
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0788
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0628
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0414
+      },
+      {
+        "label": "Listing highlights count",
+        "direction": "positive",
+        "magnitude": 0.0413
+      }
+    ],
+    "sample_size": 91
+  },
+  "Sangareddy|3": {
+    "predicted_price": 904182.375,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.4591
+      },
+      {
+        "label": "Distance from city center (50.2 km)",
+        "direction": "negative",
+        "magnitude": 0.4346
+      },
+      {
+        "label": "Listing highlights count",
+        "direction": "negative",
+        "magnitude": 0.2413
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1823
+      },
+      {
+        "label": "Facing: East",
+        "direction": "negative",
+        "magnitude": 0.1035
+      },
+      {
+        "label": "Luxury score (13.2)",
+        "direction": "negative",
+        "magnitude": 0.0731
+      }
+    ],
+    "sample_size": 72
+  },
+  "Shad nagar|3": {
+    "predicted_price": 2010635.25,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.4598
+      },
+      {
+        "label": "Distance from city center (45.9 km)",
+        "direction": "negative",
+        "magnitude": 0.2815
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1662
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0729
+      },
+      {
+        "label": "Nearby hospitals",
+        "direction": "negative",
+        "magnitude": 0.0541
+      },
+      {
+        "label": "Luxury score (17.7)",
+        "direction": "negative",
+        "magnitude": 0.042
+      }
+    ],
+    "sample_size": 84
+  },
+  "Shankarpally|3": {
+    "predicted_price": 3635798.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.3701
+      },
+      {
+        "label": "Locality: Shankarpally",
+        "direction": "negative",
+        "magnitude": 0.1912
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1319
+      },
+      {
+        "label": "Distance from city center (28.8 km)",
+        "direction": "negative",
+        "magnitude": 0.079
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0737
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0631
+      }
+    ],
+    "sample_size": 82
+  },
+  "Tellapur|2": {
+    "predicted_price": 6628847.0,
+    "top_factors": [
+      {
+        "label": "Area (1,212 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1849
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1284
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0966
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0654
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0452
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0409
+      }
+    ],
+    "sample_size": 33
+  },
+  "Tellapur|3": {
+    "predicted_price": 9470082.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1825
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0845
+      },
+      {
+        "label": "Area (1,672 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0683
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.0644
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0438
+      }
+    ],
+    "sample_size": 36
+  },
+  "Tukkuguda|2": {
+    "predicted_price": 5754597.5,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "positive",
+        "magnitude": 0.1753
+      },
+      {
+        "label": "Area (1,230 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1703
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.101
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "negative",
+        "magnitude": 0.05
+      },
+      {
+        "label": "2 BHK",
+        "direction": "negative",
+        "magnitude": 0.0476
+      },
+      {
+        "label": "Distance from city center (19.6 km)",
+        "direction": "positive",
+        "magnitude": 0.0448
+      }
+    ],
+    "sample_size": 24
+  },
+  "Tukkuguda|3": {
+    "predicted_price": 4264382.0,
+    "top_factors": [
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.375
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1663
+      },
+      {
+        "label": "Distance from city center (19.6 km)",
+        "direction": "positive",
+        "magnitude": 0.1542
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0535
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.041
+      },
+      {
+        "label": "Luxury score (8.2)",
+        "direction": "positive",
+        "magnitude": 0.0341
+      }
+    ],
+    "sample_size": 88
+  }
+}

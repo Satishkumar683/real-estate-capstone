@@ -1,0 +1,3278 @@
+{
+  "__global__": {
+    "predicted_price": 17363948.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (16.6 km)",
+        "direction": "positive",
+        "magnitude": 0.1945
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0266
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.023
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0217
+      },
+      {
+        "label": "Building height (22 floors)",
+        "direction": "positive",
+        "magnitude": 0.0195
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "negative",
+        "magnitude": 0.0159
+      }
+    ],
+    "sample_size": 5886
+  },
+  "Andheri East|2": {
+    "predicted_price": 19091564.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.8 km)",
+        "direction": "positive",
+        "magnitude": 0.3277
+      },
+      {
+        "label": "Area (900 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0966
+      },
+      {
+        "label": "Building height (9 floors)",
+        "direction": "negative",
+        "magnitude": 0.0693
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0589
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0535
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0222
+      }
+    ],
+    "sample_size": 15
+  },
+  "Andheri West|2": {
+    "predicted_price": 23121732.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.2 km)",
+        "direction": "positive",
+        "magnitude": 0.3269
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.243
+      },
+      {
+        "label": "Area (673 sqft)",
+        "direction": "negative",
+        "magnitude": 0.084
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0563
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0532
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0206
+      }
+    ],
+    "sample_size": 21
+  },
+  "Andheri West|3": {
+    "predicted_price": 42602960.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.2 km)",
+        "direction": "positive",
+        "magnitude": 0.322
+      },
+      {
+        "label": "Area (1,160 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2666
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2571
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2175
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0824
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0762
+      }
+    ],
+    "sample_size": 16
+  },
+  "Balkum|1": {
+    "predicted_price": 8817563.0,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.262
+      },
+      {
+        "label": "Area (455 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2336
+      },
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.0777
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0499
+      },
+      {
+        "label": "Distance from city center (20.2 km)",
+        "direction": "negative",
+        "magnitude": 0.0344
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0262
+      }
+    ],
+    "sample_size": 24
+  },
+  "Balkum|2": {
+    "predicted_price": 11571824.0,
+    "top_factors": [
+      {
+        "label": "Area (550 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2057
+      },
+      {
+        "label": "Building height (35 floors)",
+        "direction": "positive",
+        "magnitude": 0.0599
+      },
+      {
+        "label": "Distance from city center (20.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0513
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0453
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0229
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0227
+      }
+    ],
+    "sample_size": 50
+  },
+  "Balkum|3": {
+    "predicted_price": 23071468.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2362
+      },
+      {
+        "label": "Area (940 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1401
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0845
+      },
+      {
+        "label": "Distance from city center (20.2 km)",
+        "direction": "negative",
+        "magnitude": 0.0621
+      },
+      {
+        "label": "Building height (38 floors)",
+        "direction": "positive",
+        "magnitude": 0.0556
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.023
+      }
+    ],
+    "sample_size": 26
+  },
+  "Chandivali|1": {
+    "predicted_price": 11537488.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3137
+      },
+      {
+        "label": "Area (431 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2715
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2507
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0812
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0659
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0388
+      }
+    ],
+    "sample_size": 29
+  },
+  "Chandivali|2": {
+    "predicted_price": 18461136.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3288
+      },
+      {
+        "label": "Area (627 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1164
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0663
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0373
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0329
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0223
+      }
+    ],
+    "sample_size": 31
+  },
+  "Chandivali|3": {
+    "predicted_price": 25073140.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.6 km)",
+        "direction": "positive",
+        "magnitude": 0.2912
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.193
+      },
+      {
+        "label": "Area (891 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0679
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0641
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0475
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0368
+      }
+    ],
+    "sample_size": 19
+  },
+  "Chembur|1": {
+    "predicted_price": 10136533.0,
+    "top_factors": [
+      {
+        "label": "Area (386 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3831
+      },
+      {
+        "label": "Distance from city center (2.9 km)",
+        "direction": "positive",
+        "magnitude": 0.2844
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2716
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0685
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0665
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0608
+      }
+    ],
+    "sample_size": 8
+  },
+  "Chembur|2": {
+    "predicted_price": 19753428.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (2.9 km)",
+        "direction": "positive",
+        "magnitude": 0.3235
+      },
+      {
+        "label": "Area (648 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1055
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0622
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0359
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0341
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0233
+      }
+    ],
+    "sample_size": 18
+  },
+  "Chembur|3": {
+    "predicted_price": 30223740.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (2.9 km)",
+        "direction": "positive",
+        "magnitude": 0.2971
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2198
+      },
+      {
+        "label": "Area (1,010 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1535
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.071
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0646
+      },
+      {
+        "label": "Building height (17 floors)",
+        "direction": "negative",
+        "magnitude": 0.0229
+      }
+    ],
+    "sample_size": 11
+  },
+  "Dombivli East|1": {
+    "predicted_price": 4391984.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (25.8 km)",
+        "direction": "negative",
+        "magnitude": 0.3688
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2775
+      },
+      {
+        "label": "Area (444 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2055
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2025
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0587
+      },
+      {
+        "label": "Locality: Dombivli East",
+        "direction": "negative",
+        "magnitude": 0.0522
+      }
+    ],
+    "sample_size": 52
+  },
+  "Dombivli East|2": {
+    "predicted_price": 6275827.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (26.7 km)",
+        "direction": "negative",
+        "magnitude": 0.4054
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1912
+      },
+      {
+        "label": "Area (591 sqft)",
+        "direction": "negative",
+        "magnitude": 0.139
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0821
+      },
+      {
+        "label": "Locality: Dombivli East",
+        "direction": "negative",
+        "magnitude": 0.0579
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0386
+      }
+    ],
+    "sample_size": 52
+  },
+  "Dombivli East|3": {
+    "predicted_price": 8824991.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (26.0 km)",
+        "direction": "negative",
+        "magnitude": 0.4265
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2505
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1946
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1064
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0985
+      },
+      {
+        "label": "Locality: Dombivli East",
+        "direction": "negative",
+        "magnitude": 0.0591
+      }
+    ],
+    "sample_size": 18
+  },
+  "Ghansoli|1": {
+    "predicted_price": 10126523.0,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2906
+      },
+      {
+        "label": "Distance from city center (14.2 km)",
+        "direction": "positive",
+        "magnitude": 0.2392
+      },
+      {
+        "label": "Area (505 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1682
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0759
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0344
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.0224
+      }
+    ],
+    "sample_size": 15
+  },
+  "Ghansoli|2": {
+    "predicted_price": 19181644.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (13.9 km)",
+        "direction": "positive",
+        "magnitude": 0.2601
+      },
+      {
+        "label": "Area (770 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0423
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0342
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.0255
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0254
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0245
+      }
+    ],
+    "sample_size": 59
+  },
+  "Ghansoli|3": {
+    "predicted_price": 28693800.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2266
+      },
+      {
+        "label": "Distance from city center (13.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2247
+      },
+      {
+        "label": "Area (1,160 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2191
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0812
+      },
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.0516
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.043
+      }
+    ],
+    "sample_size": 44
+  },
+  "Goregaon East|1": {
+    "predicted_price": 11375180.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.0 km)",
+        "direction": "positive",
+        "magnitude": 0.273
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2473
+      },
+      {
+        "label": "Area (450 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2416
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0678
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.057
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0399
+      }
+    ],
+    "sample_size": 11
+  },
+  "Goregaon East|2": {
+    "predicted_price": 17341736.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (10.1 km)",
+        "direction": "positive",
+        "magnitude": 0.2827
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0875
+      },
+      {
+        "label": "Area (673 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0818
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0536
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0325
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0209
+      }
+    ],
+    "sample_size": 25
+  },
+  "Goregaon East|3": {
+    "predicted_price": 45166144.0,
+    "top_factors": [
+      {
+        "label": "Area (1,235 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3369
+      },
+      {
+        "label": "Distance from city center (9.1 km)",
+        "direction": "positive",
+        "magnitude": 0.2825
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2387
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1231
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0813
+      },
+      {
+        "label": "Building height (42 floors)",
+        "direction": "positive",
+        "magnitude": 0.0702
+      }
+    ],
+    "sample_size": 16
+  },
+  "Goregaon West|1": {
+    "predicted_price": 9595960.0,
+    "top_factors": [
+      {
+        "label": "Area (408 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3454
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2673
+      },
+      {
+        "label": "Distance from city center (9.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2389
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1215
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0651
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.053
+      }
+    ],
+    "sample_size": 12
+  },
+  "Goregaon West|2": {
+    "predicted_price": 19732188.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (9.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2769
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1564
+      },
+      {
+        "label": "Area (651 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0985
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0736
+      },
+      {
+        "label": "Building height (34 floors)",
+        "direction": "positive",
+        "magnitude": 0.0577
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0361
+      }
+    ],
+    "sample_size": 26
+  },
+  "Goregaon West|3": {
+    "predicted_price": 34546432.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (9.4 km)",
+        "direction": "positive",
+        "magnitude": 0.2876
+      },
+      {
+        "label": "Area (1,065 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2357
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2155
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.168
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0958
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0728
+      }
+    ],
+    "sample_size": 20
+  },
+  "Hiranandani Estate|1": {
+    "predicted_price": 8239158.5,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2877
+      },
+      {
+        "label": "Area (455 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2111
+      },
+      {
+        "label": "Distance from city center (22.9 km)",
+        "direction": "negative",
+        "magnitude": 0.2093
+      },
+      {
+        "label": "Locality: Hiranandani Estate",
+        "direction": "positive",
+        "magnitude": 0.096
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0698
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.05
+      }
+    ],
+    "sample_size": 19
+  },
+  "Hiranandani Estate|2": {
+    "predicted_price": 15983120.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (23.0 km)",
+        "direction": "negative",
+        "magnitude": 0.2237
+      },
+      {
+        "label": "Locality: Hiranandani Estate",
+        "direction": "positive",
+        "magnitude": 0.1701
+      },
+      {
+        "label": "Building height (27 floors)",
+        "direction": "positive",
+        "magnitude": 0.0645
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0529
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.045
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0215
+      }
+    ],
+    "sample_size": 41
+  },
+  "Hiranandani Estate|3": {
+    "predicted_price": 38057360.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.3564
+      },
+      {
+        "label": "Area (1,282 sqft)",
+        "direction": "positive",
+        "magnitude": 0.309
+      },
+      {
+        "label": "Locality: Hiranandani Estate",
+        "direction": "positive",
+        "magnitude": 0.2049
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.153
+      },
+      {
+        "label": "Distance from city center (23.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1507
+      },
+      {
+        "label": "Building height (28 floors)",
+        "direction": "positive",
+        "magnitude": 0.0646
+      }
+    ],
+    "sample_size": 48
+  },
+  "Hiranandani Gardens Powai|2": {
+    "predicted_price": 30781312.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (5.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3965
+      },
+      {
+        "label": "Locality: Hiranandani Gardens Powai",
+        "direction": "positive",
+        "magnitude": 0.1334
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1021
+      },
+      {
+        "label": "Area (821 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0837
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0258
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0233
+      }
+    ],
+    "sample_size": 26
+  },
+  "Hiranandani Gardens Powai|3": {
+    "predicted_price": 45557128.0,
+    "top_factors": [
+      {
+        "label": "Area (1,460 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3505
+      },
+      {
+        "label": "Distance from city center (5.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3483
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2241
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1095
+      },
+      {
+        "label": "Locality: Hiranandani Gardens Powai",
+        "direction": "positive",
+        "magnitude": 0.1024
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0689
+      }
+    ],
+    "sample_size": 22
+  },
+  "Kanjurmarg East|1": {
+    "predicted_price": 10623988.0,
+    "top_factors": [
+      {
+        "label": "Area (353 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3583
+      },
+      {
+        "label": "Distance from city center (8.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2705
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2638
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.069
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0421
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0383
+      }
+    ],
+    "sample_size": 17
+  },
+  "Kanjurmarg East|2": {
+    "predicted_price": 15699769.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.3 km)",
+        "direction": "positive",
+        "magnitude": 0.283
+      },
+      {
+        "label": "Area (558 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2058
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0343
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0309
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0291
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0185
+      }
+    ],
+    "sample_size": 24
+  },
+  "Kanjurmarg East|3": {
+    "predicted_price": 27091972.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2623
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2034
+      },
+      {
+        "label": "Area (850 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0775
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0768
+      },
+      {
+        "label": "Nearby schools",
+        "direction": "positive",
+        "magnitude": 0.0348
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0273
+      }
+    ],
+    "sample_size": 18
+  },
+  "Kasar vadavali|1": {
+    "predicted_price": 5426274.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (23.5 km)",
+        "direction": "negative",
+        "magnitude": 0.321
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2659
+      },
+      {
+        "label": "Area (430 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1815
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0963
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.067
+      },
+      {
+        "label": "Locality: Kasar vadavali",
+        "direction": "negative",
+        "magnitude": 0.0315
+      }
+    ],
+    "sample_size": 18
+  },
+  "Kasar vadavali|2": {
+    "predicted_price": 7866795.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (22.5 km)",
+        "direction": "negative",
+        "magnitude": 0.3577
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0911
+      },
+      {
+        "label": "Area (629 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0843
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0393
+      },
+      {
+        "label": "Locality: Kasar vadavali",
+        "direction": "negative",
+        "magnitude": 0.0367
+      },
+      {
+        "label": "Furnishing: Unfurnished",
+        "direction": "negative",
+        "magnitude": 0.0237
+      }
+    ],
+    "sample_size": 21
+  },
+  "Kharghar|1": {
+    "predicted_price": 6161629.5,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.3164
+      },
+      {
+        "label": "Area (417 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2065
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1854
+      },
+      {
+        "label": "Distance from city center (21.3 km)",
+        "direction": "negative",
+        "magnitude": 0.1818
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0772
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.06
+      }
+    ],
+    "sample_size": 36
+  },
+  "Kharghar|2": {
+    "predicted_price": 11696846.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1505
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1284
+      },
+      {
+        "label": "Area (648 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0922
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0661
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0658
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.0213
+      }
+    ],
+    "sample_size": 118
+  },
+  "Kharghar|3": {
+    "predicted_price": 16750517.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2138
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.162
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1395
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.079
+      },
+      {
+        "label": "Area (915 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0752
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0578
+      }
+    ],
+    "sample_size": 72
+  },
+  "Kharghar|4": {
+    "predicted_price": 37885280.0,
+    "top_factors": [
+      {
+        "label": "Area (2,013 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4365
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.4016
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1625
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1334
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0563
+      },
+      {
+        "label": "Building height (38 floors)",
+        "direction": "positive",
+        "magnitude": 0.0534
+      }
+    ],
+    "sample_size": 17
+  },
+  "Kolshet Road|1": {
+    "predicted_price": 8045904.5,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2633
+      },
+      {
+        "label": "Area (446 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2267
+      },
+      {
+        "label": "Building height (40 floors)",
+        "direction": "positive",
+        "magnitude": 0.0739
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0602
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0575
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0261
+      }
+    ],
+    "sample_size": 28
+  },
+  "Kolshet Road|2": {
+    "predicted_price": 11494700.0,
+    "top_factors": [
+      {
+        "label": "Area (618 sqft)",
+        "direction": "negative",
+        "magnitude": 0.123
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0966
+      },
+      {
+        "label": "Building height (40 floors)",
+        "direction": "positive",
+        "magnitude": 0.0575
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0434
+      },
+      {
+        "label": "Locality: Kolshet Road",
+        "direction": "negative",
+        "magnitude": 0.0243
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0216
+      }
+    ],
+    "sample_size": 40
+  },
+  "Kolshet Road|3": {
+    "predicted_price": 18674472.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2168
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1175
+      },
+      {
+        "label": "Area (948 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1165
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0817
+      },
+      {
+        "label": "Building height (40 floors)",
+        "direction": "positive",
+        "magnitude": 0.048
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0419
+      }
+    ],
+    "sample_size": 27
+  },
+  "Kolshet Road|4": {
+    "predicted_price": 30880808.0,
+    "top_factors": [
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.358
+      },
+      {
+        "label": "Area (1,444 sqft)",
+        "direction": "positive",
+        "magnitude": 0.331
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1525
+      },
+      {
+        "label": "Distance from city center (21.0 km)",
+        "direction": "negative",
+        "magnitude": 0.084
+      },
+      {
+        "label": "Building height (40 floors)",
+        "direction": "positive",
+        "magnitude": 0.0407
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0252
+      }
+    ],
+    "sample_size": 9
+  },
+  "Mahalaxmi|2": {
+    "predicted_price": 40787012.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3209
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.3209
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1483
+      },
+      {
+        "label": "Area (840 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1382
+      },
+      {
+        "label": "Building height (52 floors)",
+        "direction": "positive",
+        "magnitude": 0.0963
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0304
+      }
+    ],
+    "sample_size": 13
+  },
+  "Mahalaxmi|3": {
+    "predicted_price": 52147088.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3086
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2879
+      },
+      {
+        "label": "Area (1,050 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2421
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2035
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1085
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0719
+      }
+    ],
+    "sample_size": 17
+  },
+  "Malad West|1": {
+    "predicted_price": 10709233.0,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2608
+      },
+      {
+        "label": "Distance from city center (12.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2457
+      },
+      {
+        "label": "Area (446 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2456
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1617
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1046
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0629
+      }
+    ],
+    "sample_size": 10
+  },
+  "Malad West|2": {
+    "predicted_price": 16890652.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (13.2 km)",
+        "direction": "positive",
+        "magnitude": 0.2366
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1628
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1524
+      },
+      {
+        "label": "Area (667 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0908
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0447
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.017
+      }
+    ],
+    "sample_size": 19
+  },
+  "Malad West|3": {
+    "predicted_price": 28784300.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (12.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2444
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2066
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1597
+      },
+      {
+        "label": "Area (955 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1484
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1317
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0686
+      }
+    ],
+    "sample_size": 12
+  },
+  "Manpada|2": {
+    "predicted_price": 13961613.0,
+    "top_factors": [
+      {
+        "label": "Building height (28 floors)",
+        "direction": "positive",
+        "magnitude": 0.0575
+      },
+      {
+        "label": "Distance from city center (20.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0507
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0296
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0282
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0202
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0125
+      }
+    ],
+    "sample_size": 36
+  },
+  "Manpada|3": {
+    "predicted_price": 20296872.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2351
+      },
+      {
+        "label": "Area (945 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1149
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0739
+      },
+      {
+        "label": "Distance from city center (20.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0692
+      },
+      {
+        "label": "Building height (31 floors)",
+        "direction": "positive",
+        "magnitude": 0.0373
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0252
+      }
+    ],
+    "sample_size": 30
+  },
+  "Marol|1": {
+    "predicted_price": 11557619.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.3 km)",
+        "direction": "positive",
+        "magnitude": 0.3038
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2606
+      },
+      {
+        "label": "Area (445 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2579
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0685
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0356
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0281
+      }
+    ],
+    "sample_size": 13
+  },
+  "Marol|2": {
+    "predicted_price": 20667408.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.3 km)",
+        "direction": "positive",
+        "magnitude": 0.2973
+      },
+      {
+        "label": "Area (839 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0992
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0484
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0383
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0379
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.02
+      }
+    ],
+    "sample_size": 26
+  },
+  "Marol|3": {
+    "predicted_price": 29079304.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.3 km)",
+        "direction": "positive",
+        "magnitude": 0.273
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2235
+      },
+      {
+        "label": "Area (1,122 sqft)",
+        "direction": "positive",
+        "magnitude": 0.216
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0799
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0514
+      },
+      {
+        "label": "Locality: Marol",
+        "direction": "negative",
+        "magnitude": 0.0248
+      }
+    ],
+    "sample_size": 9
+  },
+  "Mulund West|1": {
+    "predicted_price": 12212239.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2684
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2528
+      },
+      {
+        "label": "Area (448 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2365
+      },
+      {
+        "label": "Building height (47 floors)",
+        "direction": "positive",
+        "magnitude": 0.0728
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0612
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.041
+      }
+    ],
+    "sample_size": 52
+  },
+  "Mulund West|2": {
+    "predicted_price": 18753108.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2752
+      },
+      {
+        "label": "Area (638 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0781
+      },
+      {
+        "label": "Building height (47 floors)",
+        "direction": "positive",
+        "magnitude": 0.0739
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0452
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0227
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0222
+      }
+    ],
+    "sample_size": 113
+  },
+  "Mulund West|3": {
+    "predicted_price": 26811808.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (12.2 km)",
+        "direction": "positive",
+        "magnitude": 0.2287
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.1904
+      },
+      {
+        "label": "Area (921 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1013
+      },
+      {
+        "label": "Building height (47 floors)",
+        "direction": "positive",
+        "magnitude": 0.0696
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0692
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0605
+      }
+    ],
+    "sample_size": 124
+  },
+  "Mulund West|4": {
+    "predicted_price": 43734880.0,
+    "top_factors": [
+      {
+        "label": "Area (1,657 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3981
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3056
+      },
+      {
+        "label": "Distance from city center (12.1 km)",
+        "direction": "positive",
+        "magnitude": 0.2158
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.158
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0659
+      },
+      {
+        "label": "Building height (43 floors)",
+        "direction": "positive",
+        "magnitude": 0.0615
+      }
+    ],
+    "sample_size": 25
+  },
+  "Nerul|2": {
+    "predicted_price": 16800560.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (16.0 km)",
+        "direction": "positive",
+        "magnitude": 0.2402
+      },
+      {
+        "label": "Area (610 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1718
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1449
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1346
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0652
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0213
+      }
+    ],
+    "sample_size": 28
+  },
+  "Nerul|3": {
+    "predicted_price": 32645204.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2467
+      },
+      {
+        "label": "Distance from city center (15.9 km)",
+        "direction": "positive",
+        "magnitude": 0.2196
+      },
+      {
+        "label": "Area (1,035 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1496
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1331
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0869
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0682
+      }
+    ],
+    "sample_size": 33
+  },
+  "Nerul|4": {
+    "predicted_price": 47867008.0,
+    "top_factors": [
+      {
+        "label": "Area (1,631 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3869
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3264
+      },
+      {
+        "label": "Distance from city center (16.0 km)",
+        "direction": "positive",
+        "magnitude": 0.2193
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1679
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1213
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.054
+      }
+    ],
+    "sample_size": 9
+  },
+  "Other|1": {
+    "predicted_price": 6407490.5,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2822
+      },
+      {
+        "label": "Distance from city center (21.2 km)",
+        "direction": "negative",
+        "magnitude": 0.2579
+      },
+      {
+        "label": "Area (425 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1902
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0815
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0659
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0444
+      }
+    ],
+    "sample_size": 936
+  },
+  "Other|2": {
+    "predicted_price": 15639815.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (18.4 km)",
+        "direction": "positive",
+        "magnitude": 0.1132
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0383
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0371
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0345
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.0302
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0152
+      }
+    ],
+    "sample_size": 1459
+  },
+  "Other|3": {
+    "predicted_price": 26202104.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2265
+      },
+      {
+        "label": "Area (1,050 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2046
+      },
+      {
+        "label": "Distance from city center (15.4 km)",
+        "direction": "positive",
+        "magnitude": 0.1882
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0813
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0466
+      },
+      {
+        "label": "Building height (23 floors)",
+        "direction": "negative",
+        "magnitude": 0.018
+      }
+    ],
+    "sample_size": 724
+  },
+  "Other|4": {
+    "predicted_price": 39659916.0,
+    "top_factors": [
+      {
+        "label": "Area (1,506 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3584
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3179
+      },
+      {
+        "label": "Distance from city center (13.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2082
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1642
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0586
+      },
+      {
+        "label": "Building height (29 floors)",
+        "direction": "positive",
+        "magnitude": 0.0299
+      }
+    ],
+    "sample_size": 109
+  },
+  "Panvel|1": {
+    "predicted_price": 5001354.5,
+    "top_factors": [
+      {
+        "label": "Distance from city center (28.8 km)",
+        "direction": "negative",
+        "magnitude": 0.3638
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2946
+      },
+      {
+        "label": "Area (389 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2679
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1853
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0705
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0638
+      }
+    ],
+    "sample_size": 53
+  },
+  "Panvel|2": {
+    "predicted_price": 9469034.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (28.8 km)",
+        "direction": "negative",
+        "magnitude": 0.4248
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1488
+      },
+      {
+        "label": "Building height (35 floors)",
+        "direction": "positive",
+        "magnitude": 0.0818
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0626
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0467
+      },
+      {
+        "label": "Area (645 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0344
+      }
+    ],
+    "sample_size": 79
+  },
+  "Panvel|3": {
+    "predicted_price": 13251558.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (28.8 km)",
+        "direction": "negative",
+        "magnitude": 0.466
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2696
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1513
+      },
+      {
+        "label": "Area (1,064 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1253
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1065
+      },
+      {
+        "label": "Building height (41 floors)",
+        "direction": "positive",
+        "magnitude": 0.0477
+      }
+    ],
+    "sample_size": 38
+  },
+  "Panvel|4": {
+    "predicted_price": 22285460.0,
+    "top_factors": [
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3954
+      },
+      {
+        "label": "Distance from city center (28.8 km)",
+        "direction": "negative",
+        "magnitude": 0.3768
+      },
+      {
+        "label": "Area (1,096 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1889
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1724
+      },
+      {
+        "label": "Building height (42 floors)",
+        "direction": "positive",
+        "magnitude": 0.1578
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1334
+      }
+    ],
+    "sample_size": 11
+  },
+  "Parel|2": {
+    "predicted_price": 31988640.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3059
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1853
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1265
+      },
+      {
+        "label": "Area (826 sqft)",
+        "direction": "positive",
+        "magnitude": 0.116
+      },
+      {
+        "label": "Building height (59 floors)",
+        "direction": "positive",
+        "magnitude": 0.095
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0262
+      }
+    ],
+    "sample_size": 32
+  },
+  "Parel|3": {
+    "predicted_price": 42288520.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.6 km)",
+        "direction": "positive",
+        "magnitude": 0.2988
+      },
+      {
+        "label": "Area (1,063 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2239
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2076
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1727
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0963
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0773
+      }
+    ],
+    "sample_size": 18
+  },
+  "Powai|1": {
+    "predicted_price": 13890984.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (5.6 km)",
+        "direction": "positive",
+        "magnitude": 0.333
+      },
+      {
+        "label": "Area (429 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2829
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2499
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0849
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0665
+      },
+      {
+        "label": "Locality: Powai",
+        "direction": "positive",
+        "magnitude": 0.061
+      }
+    ],
+    "sample_size": 26
+  },
+  "Powai|2": {
+    "predicted_price": 25130068.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (5.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3637
+      },
+      {
+        "label": "Locality: Powai",
+        "direction": "positive",
+        "magnitude": 0.0963
+      },
+      {
+        "label": "Area (631 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0768
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0756
+      },
+      {
+        "label": "Building height (26 floors)",
+        "direction": "positive",
+        "magnitude": 0.0282
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0258
+      }
+    ],
+    "sample_size": 58
+  },
+  "Powai|3": {
+    "predicted_price": 36485312.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (5.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3199
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2216
+      },
+      {
+        "label": "Area (995 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1613
+      },
+      {
+        "label": "Locality: Powai",
+        "direction": "positive",
+        "magnitude": 0.0722
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0721
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0478
+      }
+    ],
+    "sample_size": 56
+  },
+  "Seawoods|2": {
+    "predicted_price": 22391764.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (16.0 km)",
+        "direction": "positive",
+        "magnitude": 0.2569
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1453
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.103
+      },
+      {
+        "label": "Locality: Seawoods",
+        "direction": "positive",
+        "magnitude": 0.0494
+      },
+      {
+        "label": "Area (770 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0431
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0431
+      }
+    ],
+    "sample_size": 31
+  },
+  "Seawoods|3": {
+    "predicted_price": 38202380.0,
+    "top_factors": [
+      {
+        "label": "Area (1,130 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2666
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2479
+      },
+      {
+        "label": "Distance from city center (15.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2284
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1331
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0907
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.077
+      }
+    ],
+    "sample_size": 29
+  },
+  "Seawoods|4": {
+    "predicted_price": 49157444.0,
+    "top_factors": [
+      {
+        "label": "Area (1,265 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3212
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3128
+      },
+      {
+        "label": "Distance from city center (14.8 km)",
+        "direction": "positive",
+        "magnitude": 0.2558
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1642
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0996
+      },
+      {
+        "label": "Building height (29 floors)",
+        "direction": "positive",
+        "magnitude": 0.0386
+      }
+    ],
+    "sample_size": 9
+  },
+  "Thane West|1": {
+    "predicted_price": 7140060.0,
+    "top_factors": [
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2867
+      },
+      {
+        "label": "Area (427 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2156
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0706
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0411
+      },
+      {
+        "label": "Building height (23 floors)",
+        "direction": "positive",
+        "magnitude": 0.0324
+      },
+      {
+        "label": "Distance from city center (19.5 km)",
+        "direction": "negative",
+        "magnitude": 0.0269
+      }
+    ],
+    "sample_size": 35
+  },
+  "Thane West|2": {
+    "predicted_price": 13862716.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (20.5 km)",
+        "direction": "negative",
+        "magnitude": 0.0496
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0392
+      },
+      {
+        "label": "Area (750 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0295
+      },
+      {
+        "label": "Building height (20 floors)",
+        "direction": "positive",
+        "magnitude": 0.0186
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.015
+      },
+      {
+        "label": "Property type: Residential Apartment",
+        "direction": "positive",
+        "magnitude": 0.0137
+      }
+    ],
+    "sample_size": 27
+  },
+  "Thane West|3": {
+    "predicted_price": 22781420.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2541
+      },
+      {
+        "label": "Area (1,041 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1844
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0904
+      },
+      {
+        "label": "Distance from city center (19.6 km)",
+        "direction": "negative",
+        "magnitude": 0.0625
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.035
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.0186
+      }
+    ],
+    "sample_size": 24
+  },
+  "Thane West|4": {
+    "predicted_price": 33774108.0,
+    "top_factors": [
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.3551
+      },
+      {
+        "label": "Area (1,600 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3484
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1674
+      },
+      {
+        "label": "Distance from city center (19.7 km)",
+        "direction": "negative",
+        "magnitude": 0.0607
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0404
+      },
+      {
+        "label": "Nearby shopping",
+        "direction": "negative",
+        "magnitude": 0.0187
+      }
+    ],
+    "sample_size": 12
+  },
+  "Ulwe|1": {
+    "predicted_price": 4938229.0,
+    "top_factors": [
+      {
+        "label": "Area (344 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3211
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.3205
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2126
+      },
+      {
+        "label": "Distance from city center (21.2 km)",
+        "direction": "negative",
+        "magnitude": 0.1813
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0835
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0568
+      }
+    ],
+    "sample_size": 21
+  },
+  "Ulwe|2": {
+    "predicted_price": 9609532.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1956
+      },
+      {
+        "label": "Distance from city center (20.4 km)",
+        "direction": "negative",
+        "magnitude": 0.1487
+      },
+      {
+        "label": "Area (687 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0606
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0486
+      },
+      {
+        "label": "Nearby landmarks (6)",
+        "direction": "negative",
+        "magnitude": 0.0374
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0338
+      }
+    ],
+    "sample_size": 48
+  },
+  "Ulwe|3": {
+    "predicted_price": 14872354.0,
+    "top_factors": [
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2219
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1621
+      },
+      {
+        "label": "Distance from city center (20.3 km)",
+        "direction": "negative",
+        "magnitude": 0.0975
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0841
+      },
+      {
+        "label": "Area (802 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0418
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "negative",
+        "magnitude": 0.0249
+      }
+    ],
+    "sample_size": 18
+  },
+  "Vashi|2": {
+    "predicted_price": 23043452.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (12.8 km)",
+        "direction": "positive",
+        "magnitude": 0.3146
+      },
+      {
+        "label": "Area (607 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1325
+      },
+      {
+        "label": "Locality: Vashi",
+        "direction": "positive",
+        "magnitude": 0.0994
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0846
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0357
+      },
+      {
+        "label": "Building height (25 floors)",
+        "direction": "positive",
+        "magnitude": 0.0337
+      }
+    ],
+    "sample_size": 32
+  },
+  "Vashi|3": {
+    "predicted_price": 33889164.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (12.8 km)",
+        "direction": "positive",
+        "magnitude": 0.256
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2299
+      },
+      {
+        "label": "Area (995 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1242
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0817
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0784
+      },
+      {
+        "label": "Locality: Vashi",
+        "direction": "positive",
+        "magnitude": 0.0402
+      }
+    ],
+    "sample_size": 34
+  },
+  "Vashi|4": {
+    "predicted_price": 45795836.0,
+    "top_factors": [
+      {
+        "label": "Area (1,508 sqft)",
+        "direction": "positive",
+        "magnitude": 0.333
+      },
+      {
+        "label": "4 BHK",
+        "direction": "positive",
+        "magnitude": 0.2912
+      },
+      {
+        "label": "Distance from city center (12.6 km)",
+        "direction": "positive",
+        "magnitude": 0.2616
+      },
+      {
+        "label": "4 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.1496
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0502
+      },
+      {
+        "label": "Locality: Vashi",
+        "direction": "positive",
+        "magnitude": 0.0374
+      }
+    ],
+    "sample_size": 11
+  },
+  "Wadala|1": {
+    "predicted_price": 18384568.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (6.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3474
+      },
+      {
+        "label": "1 BHK",
+        "direction": "negative",
+        "magnitude": 0.2417
+      },
+      {
+        "label": "Area (435 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2299
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2001
+      },
+      {
+        "label": "Building height (43 floors)",
+        "direction": "positive",
+        "magnitude": 0.0917
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0913
+      }
+    ],
+    "sample_size": 10
+  },
+  "Wadala|2": {
+    "predicted_price": 23052464.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3393
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1358
+      },
+      {
+        "label": "Area (627 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1237
+      },
+      {
+        "label": "Building height (42 floors)",
+        "direction": "positive",
+        "magnitude": 0.0719
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0319
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0268
+      }
+    ],
+    "sample_size": 26
+  },
+  "Wadala|3": {
+    "predicted_price": 37735420.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (4.5 km)",
+        "direction": "positive",
+        "magnitude": 0.3165
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2044
+      },
+      {
+        "label": "Area (965 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1541
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1084
+      },
+      {
+        "label": "3 bathrooms",
+        "direction": "positive",
+        "magnitude": 0.0741
+      },
+      {
+        "label": "Building height (42 floors)",
+        "direction": "positive",
+        "magnitude": 0.0713
+      }
+    ],
+    "sample_size": 21
+  },
+  "Worli|2": {
+    "predicted_price": 51631456.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (9.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3571
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.355
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.189
+      },
+      {
+        "label": "Building height (79 floors)",
+        "direction": "positive",
+        "magnitude": 0.1618
+      },
+      {
+        "label": "Area (893 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1523
+      },
+      {
+        "label": "2 BHK",
+        "direction": "positive",
+        "magnitude": 0.0357
+      }
+    ],
+    "sample_size": 17
+  },
+  "Worli|3": {
+    "predicted_price": 63183248.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (9.7 km)",
+        "direction": "positive",
+        "magnitude": 0.3302
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.2936
+      },
+      {
+        "label": "Area (1,150 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2674
+      },
+      {
+        "label": "3 BHK",
+        "direction": "positive",
+        "magnitude": 0.2092
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1585
+      },
+      {
+        "label": "Building height (79 floors)",
+        "direction": "positive",
+        "magnitude": 0.1261
+      }
+    ],
+    "sample_size": 15
+  }
+}

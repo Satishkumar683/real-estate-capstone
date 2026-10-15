@@ -25,7 +25,7 @@ if hasattr(sys.stderr, 'reconfigure'):
 
 from pipeline.config import (
     CITY_CENTERS, DATA_DIR, DISPLAY_COLUMNS, FINAL_COLUMNS,
-    MAX_DISTANCE_KM, MODEL_DIR, RAW_FILES
+    MAX_DISTANCE_KM, MODEL_DIR, PROCESSED_DIR, RAW_FILES
 )
 from pipeline.normalizers import (
     normalize_99acres, normalize_bangalore, normalize_kolkata
@@ -104,15 +104,24 @@ def process_city(city: str):
             display_df[d_col] = ''
     display_df = display_df[DISPLAY_COLUMNS].copy()
 
-    # 6. Save processed datasets
+    # 6. Save processed datasets to both app/data (for FastAPI) and data/processed (for analysis)
     out_data_dir = DATA_DIR / city
     out_data_dir.mkdir(parents=True, exist_ok=True)
+    out_processed_dir = PROCESSED_DIR / city
+    out_processed_dir.mkdir(parents=True, exist_ok=True)
+
     final_csv_path = out_data_dir / "flats_final.csv"
     display_csv_path = out_data_dir / "listing_display.csv"
 
     df_final.to_csv(final_csv_path, index=False)
     display_df.to_csv(display_csv_path, index=False)
-    print(f"Saved {len(df_final)} listings to: {final_csv_path}")
+
+    # Mirror to data/processed/{city}/
+    df_final.to_csv(out_processed_dir / "flats_final.csv", index=False)
+    df_final.to_csv(out_processed_dir / f"{city}_flats_final.csv", index=False)
+    display_df.to_csv(out_processed_dir / "listing_display.csv", index=False)
+
+    print(f"Saved {len(df_final)} listings to: {final_csv_path} and {out_processed_dir}")
     print(f"Saved {len(display_df)} display entries to: {display_csv_path}")
 
     # 7. Train ML valuation model
@@ -124,6 +133,8 @@ def process_city(city: str):
     print("Precomputing SHAP explainability cache...")
     shap_path = out_data_dir / "shap_cache.json"
     generate_shap_cache(df_final, pipe, shap_path)
+    import shutil
+    shutil.copy2(shap_path, out_processed_dir / "shap_cache.json")
 
     # 9. Test compatibility with backend loader
     print("Verifying FastAPI load compatibility...")
