@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import { fetchFromMlService } from '@/shared/api/serverClient';
 import CityHubCard from '@/features/city-hub/CityHubCard';
 
@@ -15,43 +16,76 @@ export default async function CityHubPage({ params }) {
 
   const cards = [
     {
-      title: 'Property Recommendation',
-      description: 'Browse ranked listings matched to your budget, BHK, and furnishing preferences.',
-      stat: `${cityInfo.count.toLocaleString('en-IN')} listings available`,
+      title: 'Property Search & Ranking',
+      description: 'Browse ranked listings matched to your budget, BHK, and furnishing preferences with value scores.',
+      stat: `${cityInfo.count.toLocaleString('en-IN')} listings`,
       href: `/search/${city}`,
     },
     {
-      title: 'Price Estimation',
-      description: "Get an instant price estimate for a property, with a breakdown of what's driving it.",
+      title: 'Price Estimation & SHAP',
+      description: "Get an instant valuation for any property in this market, with transparent factor attribution.",
+      stat: 'XGBoost Trained',
       href: `/estimate/${city}`,
     },
     {
-      title: 'Market Insights',
-      description: `Visual breakdown of the ${cityInfo.label} market: price distributions, hotspots, and listing trends.`,
+      title: 'Market Insights & Visuals',
+      description: `Visual breakdown of the ${cityInfo.label} market: price distributions, locality rankings, and scatter maps.`,
+      stat: 'Interactive Visuals',
       href: `/insights/${city}`,
     },
     {
       title: 'Luxury Score',
-      description: 'See how amenities, furnishing, and location combine into a single luxury score.',
+      description: 'See how amenities, furnishing, and locality combine into a single luxury index.',
       comingSoon: true,
     },
     {
-      title: 'Price Trends',
-      description: 'How prices vary across property types, BHK, and localities.',
+      title: 'Price Trends Over Time',
+      description: 'Historical price variations across property types, BHK configurations, and localities.',
       comingSoon: true,
     },
   ];
 
   return (
-    <main className="pt-24 max-w-6xl mx-auto px-6 pb-20">
-      <p className="text-sm text-gold font-medium mb-2">{cityInfo.label}</p>
-      <h1 className="font-display font-semibold text-navy text-3xl md:text-4xl">
-        Everything about {cityInfo.label} real estate, in one place.
+    <main className="pt-28 max-w-6xl mx-auto px-6 pb-20">
+      {/* Header section with Flow badges */}
+      <div className="flex flex-wrap items-center gap-2.5 mb-4">
+        <span className="bg-[#033B30] text-[#E0FBE6] border border-[#033B30] rounded-full px-3 py-1 text-xs font-semibold inline-flex items-center gap-1.5">
+          <span>✓</span>
+          <span>{cityInfo.label} Metro Active</span>
+        </span>
+        <span className="bg-white border border-[#18181B]/15 text-[#18181B] rounded-full px-3 py-1 text-xs font-medium">
+          {cityInfo.count.toLocaleString('en-IN')} Listings Analyzed
+        </span>
+      </div>
+
+      <h1 className="font-display font-semibold text-[#18181B] text-3xl sm:text-4xl md:text-5xl tracking-tight">
+        Everything about <span className="italic font-normal">{cityInfo.label}</span> real estate.
       </h1>
-      <p className="mt-3 text-charcoal max-w-xl">
-        {cityInfo.count.toLocaleString('en-IN')} listings, one price model, five ways to explore the market.
+      <p className="mt-3 text-[#52525B] max-w-2xl text-base sm:text-lg leading-relaxed">
+        Explore listings, get transparent machine-learning valuations, and analyze neighborhood trends across {cityInfo.label}.
       </p>
 
+      {/* Switcher for other cities */}
+      {cities.length > 1 && (
+        <div className="mt-6 flex flex-wrap items-center gap-2 pt-2">
+          <span className="text-xs font-semibold text-[#52525B] mr-1">Switch metro:</span>
+          {cities.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/city/${c.slug}`}
+              className={`px-3 py-1 rounded-full text-xs font-medium border transition-all ${
+                c.slug === city
+                  ? 'bg-[#E8D5FF] text-[#18181B] border-[#18181B] shadow-xs'
+                  : 'bg-white text-[#52525B] border-[#18181B]/15 hover:border-[#18181B]/30 hover:text-[#18181B]'
+              }`}
+            >
+              {c.label}
+            </Link>
+          ))}
+        </div>
+      )}
+
+      {/* Grid of hub cards */}
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {cards.map((card) => (
           <CityHubCard key={card.title} {...card} />

@@ -100,7 +100,7 @@ export default async function ListingDetailPage({ params, searchParams }) {
   const landmarks = Object.entries(listing.nearby_landmarks || {});
 
   return (
-    <main className="pt-24 pb-20 max-w-6xl mx-auto px-6">
+    <main className="pt-28 pb-20 max-w-6xl mx-auto px-6">
       {/* Breadcrumb Navigation */}
       <nav className="text-xs text-charcoal flex items-center gap-2 mb-6">
         <Link href="/" className="hover:text-navy transition-colors">Home</Link>

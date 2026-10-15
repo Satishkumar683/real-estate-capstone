@@ -90,9 +90,9 @@ export default function LoginForm() {
   };
 
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-4">
       {displayError && (
-        <div className="bg-red-50 border border-red-200 text-red-800 rounded-lg p-3.5 text-xs leading-relaxed">
+        <div className="bg-rose-50 border border-rose-200 text-rose-800 rounded-xl p-3 text-xs leading-relaxed">
           <p className="font-semibold mb-0.5">Authentication Notice</p>
           <p>{displayError}</p>
         </div>
@@ -106,40 +106,40 @@ export default function LoginForm() {
         type="button"
         onClick={handleDemoLogin}
         disabled={loading}
-        className="w-full flex items-center justify-center gap-2 border border-gold/40 bg-gold/10 hover:bg-gold/20 text-navy rounded-md py-3 text-sm font-medium transition-colors cursor-pointer"
+        className="w-full flex items-center justify-center gap-2 border border-[#18181B]/15 bg-[#FAF8EE] hover:bg-[#FAF8EE]/80 text-[#18181B] rounded-xl py-2.5 text-xs font-semibold transition-all cursor-pointer shadow-xs"
       >
-        <span className="w-2 h-2 rounded-full bg-gold" />
+        <span className="w-2 h-2 rounded-full bg-[#033B30]" />
         One-Click Demo Login (student.nit@realestate.ai)
       </button>
 
       <div className="flex items-center gap-3 my-1">
-        <div className="h-px bg-navy/10 flex-1" />
-        <span className="text-xs text-charcoal/70">or continue with email</span>
-        <div className="h-px bg-navy/10 flex-1" />
+        <div className="h-px bg-[#18181B]/10 flex-1" />
+        <span className="text-[11px] font-medium text-[#71717A]">or continue with email</span>
+        <div className="h-px bg-[#18181B]/10 flex-1" />
       </div>
 
       {/* Working Email / Password Credentials Form */}
-      <form onSubmit={handleCredentialsSubmit} className="flex flex-col gap-3.5">
-        <label className="flex flex-col gap-1 text-sm text-charcoal">
+      <form onSubmit={handleCredentialsSubmit} className="flex flex-col gap-3">
+        <label className="flex flex-col gap-1 text-xs font-medium text-[#52525B]">
           Email address
           <input
             type="email"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="you@nit.ac.in"
-            className="px-4 py-2.5 rounded-md border border-navy/15 bg-white text-navy focus:outline-none focus:border-gold text-sm"
+            placeholder="you@domain.com"
+            className="px-3.5 py-2.5 rounded-xl border border-[#18181B]/15 bg-[#FAF8EE] text-[#18181B] text-xs font-medium focus:outline-none focus:ring-1 focus:ring-[#18181B]"
           />
         </label>
 
-        <label className="flex flex-col gap-1 text-sm text-charcoal">
+        <label className="flex flex-col gap-1 text-xs font-medium text-[#52525B]">
           Password
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="••••••••"
-            className="px-4 py-2.5 rounded-md border border-navy/15 bg-white text-navy focus:outline-none focus:border-gold text-sm"
+            className="px-3.5 py-2.5 rounded-xl border border-[#18181B]/15 bg-[#FAF8EE] text-[#18181B] text-xs font-medium focus:outline-none focus:ring-1 focus:ring-[#18181B]"
           />
         </label>
 
@@ -147,7 +147,7 @@ export default function LoginForm() {
           type="submit"
           variant="primary"
           disabled={loading || !email}
-          className="mt-2 w-full py-3"
+          className="mt-2 w-full py-2.5 text-xs font-semibold"
         >
           {loading ? 'Signing in…' : 'Sign in with Email'}
         </Button>
