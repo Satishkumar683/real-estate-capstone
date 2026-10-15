@@ -1,0 +1,2846 @@
+{
+  "__global__": {
+    "predicted_price": 4977416.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0865
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0852
+      },
+      {
+        "label": "Super built-up area (1,128 sqft)",
+        "direction": "negative",
+        "magnitude": 0.069
+      },
+      {
+        "label": "Distance from city center (11.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0356
+      },
+      {
+        "label": "Nearby landmarks (22)",
+        "direction": "negative",
+        "magnitude": 0.0206
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0186
+      }
+    ],
+    "sample_size": 6004
+  },
+  "Action Area 1|2": {
+    "predicted_price": 6716190.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1063
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.078
+      },
+      {
+        "label": "Distance from city center (10.1 km)",
+        "direction": "positive",
+        "magnitude": 0.0756
+      },
+      {
+        "label": "Super built-up area (1,076 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0465
+      },
+      {
+        "label": "Locality: Action Area 1",
+        "direction": "positive",
+        "magnitude": 0.0463
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0376
+      }
+    ],
+    "sample_size": 19
+  },
+  "Action Area 1|3": {
+    "predicted_price": 8301752.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,450 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2166
+      },
+      {
+        "label": "Area (1,355 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1258
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1124
+      },
+      {
+        "label": "Distance from city center (10.1 km)",
+        "direction": "positive",
+        "magnitude": 0.0632
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0621
+      },
+      {
+        "label": "Carpet area (1,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0297
+      }
+    ],
+    "sample_size": 52
+  },
+  "Action Area 2|2": {
+    "predicted_price": 4726042.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (945 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1299
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0677
+      },
+      {
+        "label": "Locality: Action Area 2",
+        "direction": "positive",
+        "magnitude": 0.0618
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0511
+      },
+      {
+        "label": "Area (922 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0511
+      },
+      {
+        "label": "Distance from city center (11.5 km)",
+        "direction": "positive",
+        "magnitude": 0.0469
+      }
+    ],
+    "sample_size": 18
+  },
+  "Action Area 2|3": {
+    "predicted_price": 9462697.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,555 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2411
+      },
+      {
+        "label": "Area (1,430 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2101
+      },
+      {
+        "label": "Building height (9 floors)",
+        "direction": "positive",
+        "magnitude": 0.0599
+      },
+      {
+        "label": "Locality: Action Area 2",
+        "direction": "positive",
+        "magnitude": 0.0441
+      },
+      {
+        "label": "Carpet area (1,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0373
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0237
+      }
+    ],
+    "sample_size": 42
+  },
+  "Action Area 3|1": {
+    "predicted_price": 2189071.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (480 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4253
+      },
+      {
+        "label": "Area (437 sqft)",
+        "direction": "negative",
+        "magnitude": 0.408
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0957
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0921
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0687
+      },
+      {
+        "label": "Distance from city center (15.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0679
+      }
+    ],
+    "sample_size": 21
+  },
+  "Action Area 3|2": {
+    "predicted_price": 3130403.25,
+    "top_factors": [
+      {
+        "label": "Area (480 sqft)",
+        "direction": "negative",
+        "magnitude": 0.336
+      },
+      {
+        "label": "Super built-up area (700 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3068
+      },
+      {
+        "label": "Building height (14 floors)",
+        "direction": "positive",
+        "magnitude": 0.1868
+      },
+      {
+        "label": "Distance from city center (15.2 km)",
+        "direction": "negative",
+        "magnitude": 0.1028
+      },
+      {
+        "label": "Carpet area (480 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0725
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0511
+      }
+    ],
+    "sample_size": 13
+  },
+  "Action Area 3|3": {
+    "predicted_price": 6459161.5,
+    "top_factors": [
+      {
+        "label": "Building height (14 floors)",
+        "direction": "positive",
+        "magnitude": 0.151
+      },
+      {
+        "label": "Distance from city center (15.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1127
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0634
+      },
+      {
+        "label": "Carpet area (1,296 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0422
+      },
+      {
+        "label": "Locality: Action Area 3",
+        "direction": "positive",
+        "magnitude": 0.0381
+      }
+    ],
+    "sample_size": 40
+  },
+  "BT Road|2": {
+    "predicted_price": 6928142.5,
+    "top_factors": [
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.2419
+      },
+      {
+        "label": "Distance from city center (5.9 km)",
+        "direction": "positive",
+        "magnitude": 0.1515
+      },
+      {
+        "label": "Area (928 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0997
+      },
+      {
+        "label": "Super built-up area (1,007 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0626
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0491
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0319
+      }
+    ],
+    "sample_size": 32
+  },
+  "BT Road|3": {
+    "predicted_price": 10207211.0,
+    "top_factors": [
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.2379
+      },
+      {
+        "label": "Super built-up area (1,350 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2095
+      },
+      {
+        "label": "Distance from city center (7.8 km)",
+        "direction": "positive",
+        "magnitude": 0.1194
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1146
+      },
+      {
+        "label": "Area (1,270 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0845
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0459
+      }
+    ],
+    "sample_size": 51
+  },
+  "BT Road|4": {
+    "predicted_price": 16303209.0,
+    "top_factors": [
+      {
+        "label": "Area (1,928 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3778
+      },
+      {
+        "label": "Super built-up area (1,984 sqft)",
+        "direction": "positive",
+        "magnitude": 0.328
+      },
+      {
+        "label": "Building height (24 floors)",
+        "direction": "positive",
+        "magnitude": 0.1927
+      },
+      {
+        "label": "Distance from city center (5.7 km)",
+        "direction": "positive",
+        "magnitude": 0.1079
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0415
+      },
+      {
+        "label": "Carpet area (1,685 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0353
+      }
+    ],
+    "sample_size": 27
+  },
+  "Ballygunge|3": {
+    "predicted_price": 19991040.0,
+    "top_factors": [
+      {
+        "label": "Area (1,503 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3541
+      },
+      {
+        "label": "Super built-up area (1,503 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3412
+      },
+      {
+        "label": "Distance from city center (4.4 km)",
+        "direction": "positive",
+        "magnitude": 0.1697
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1123
+      },
+      {
+        "label": "Locality: Ballygunge",
+        "direction": "positive",
+        "magnitude": 0.1119
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0772
+      }
+    ],
+    "sample_size": 11
+  },
+  "Barasat|1": {
+    "predicted_price": 1060037.25,
+    "top_factors": [
+      {
+        "label": "Super built-up area (502 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4962
+      },
+      {
+        "label": "Area (502 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4509
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1832
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.1595
+      },
+      {
+        "label": "Distance from city center (20.7 km)",
+        "direction": "negative",
+        "magnitude": 0.139
+      },
+      {
+        "label": "Carpet area (312 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1323
+      }
+    ],
+    "sample_size": 19
+  },
+  "Barasat|2": {
+    "predicted_price": 1988604.125,
+    "top_factors": [
+      {
+        "label": "Super built-up area (700 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3212
+      },
+      {
+        "label": "Area (646 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1469
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1238
+      },
+      {
+        "label": "Distance from city center (19.9 km)",
+        "direction": "negative",
+        "magnitude": 0.1182
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0427
+      }
+    ],
+    "sample_size": 31
+  },
+  "Barasat|3": {
+    "predicted_price": 2187500.25,
+    "top_factors": [
+      {
+        "label": "Super built-up area (943 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1758
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1708
+      },
+      {
+        "label": "Distance from city center (19.9 km)",
+        "direction": "negative",
+        "magnitude": 0.1581
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1264
+      },
+      {
+        "label": "Area (943 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1192
+      },
+      {
+        "label": "Locality: Barasat",
+        "direction": "negative",
+        "magnitude": 0.0501
+      }
+    ],
+    "sample_size": 60
+  },
+  "Baruipur|2": {
+    "predicted_price": 2973366.5,
+    "top_factors": [
+      {
+        "label": "Area (721 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2253
+      },
+      {
+        "label": "Super built-up area (840 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2085
+      },
+      {
+        "label": "Distance from city center (23.5 km)",
+        "direction": "negative",
+        "magnitude": 0.1467
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0989
+      },
+      {
+        "label": "Nearby schools",
+        "direction": "positive",
+        "magnitude": 0.0325
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0239
+      }
+    ],
+    "sample_size": 24
+  },
+  "Baruipur|3": {
+    "predicted_price": 4112891.75,
+    "top_factors": [
+      {
+        "label": "Distance from city center (24.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1598
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.092
+      },
+      {
+        "label": "Super built-up area (1,070 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0677
+      },
+      {
+        "label": "Area (1,070 sqft)",
+        "direction": "negative",
+        "magnitude": 0.032
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0215
+      },
+      {
+        "label": "Carpet area (1,100 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0202
+      }
+    ],
+    "sample_size": 26
+  },
+  "Behala|2": {
+    "predicted_price": 2976390.75,
+    "top_factors": [
+      {
+        "label": "Super built-up area (813 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2761
+      },
+      {
+        "label": "Area (800 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1655
+      },
+      {
+        "label": "Building height (3 floors)",
+        "direction": "negative",
+        "magnitude": 0.1452
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1075
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0576
+      },
+      {
+        "label": "Distance from city center (10.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0557
+      }
+    ],
+    "sample_size": 28
+  },
+  "Behala|3": {
+    "predicted_price": 5515758.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,260 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1601
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1024
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0931
+      },
+      {
+        "label": "Area (1,200 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0534
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0459
+      },
+      {
+        "label": "Distance from city center (10.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0376
+      }
+    ],
+    "sample_size": 25
+  },
+  "Chinar Park|2": {
+    "predicted_price": 3943927.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (880 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1501
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0881
+      },
+      {
+        "label": "Area (912 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0821
+      },
+      {
+        "label": "Distance from city center (9.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0566
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "negative",
+        "magnitude": 0.023
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0168
+      }
+    ],
+    "sample_size": 39
+  },
+  "Chinar Park|3": {
+    "predicted_price": 6903831.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,349 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2173
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.1005
+      },
+      {
+        "label": "Area (1,244 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0886
+      },
+      {
+        "label": "Distance from city center (9.7 km)",
+        "direction": "positive",
+        "magnitude": 0.07
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.017
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0159
+      }
+    ],
+    "sample_size": 35
+  },
+  "Chinar Park|4": {
+    "predicted_price": 14204866.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (2,187 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3748
+      },
+      {
+        "label": "Area (1,800 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3682
+      },
+      {
+        "label": "Distance from city center (9.7 km)",
+        "direction": "positive",
+        "magnitude": 0.0823
+      },
+      {
+        "label": "Building height (10 floors)",
+        "direction": "positive",
+        "magnitude": 0.0737
+      },
+      {
+        "label": "Carpet area (1,680 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0444
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0353
+      }
+    ],
+    "sample_size": 9
+  },
+  "EM Bypass|2": {
+    "predicted_price": 7524775.0,
+    "top_factors": [
+      {
+        "label": "Building height (18 floors)",
+        "direction": "positive",
+        "magnitude": 0.2763
+      },
+      {
+        "label": "Distance from city center (9.9 km)",
+        "direction": "positive",
+        "magnitude": 0.1209
+      },
+      {
+        "label": "Area (976 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0846
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0723
+      },
+      {
+        "label": "Super built-up area (976 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0683
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.025
+      }
+    ],
+    "sample_size": 61
+  },
+  "EM Bypass|3": {
+    "predicted_price": 11974206.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,597 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2439
+      },
+      {
+        "label": "Area (1,433 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1939
+      },
+      {
+        "label": "Building height (17 floors)",
+        "direction": "positive",
+        "magnitude": 0.1844
+      },
+      {
+        "label": "Distance from city center (8.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0977
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0578
+      },
+      {
+        "label": "Carpet area (1,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0313
+      }
+    ],
+    "sample_size": 114
+  },
+  "EM Bypass|4": {
+    "predicted_price": 15123453.0,
+    "top_factors": [
+      {
+        "label": "Area (1,816 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3558
+      },
+      {
+        "label": "Super built-up area (3,123 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3188
+      },
+      {
+        "label": "Distance from city center (6.5 km)",
+        "direction": "positive",
+        "magnitude": 0.1124
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0717
+      },
+      {
+        "label": "Building height (7 floors)",
+        "direction": "positive",
+        "magnitude": 0.0515
+      },
+      {
+        "label": "Carpet area (2,108 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0508
+      }
+    ],
+    "sample_size": 15
+  },
+  "Garia|2": {
+    "predicted_price": 3719705.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (848 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2163
+      },
+      {
+        "label": "Area (848 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1338
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0897
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0193
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0181
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0158
+      }
+    ],
+    "sample_size": 81
+  },
+  "Garia|3": {
+    "predicted_price": 6046540.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,205 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1023
+      },
+      {
+        "label": "Carpet area (1,229 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0374
+      },
+      {
+        "label": "Distance from city center (12.7 km)",
+        "direction": "negative",
+        "magnitude": 0.0245
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0147
+      },
+      {
+        "label": "Floor number (1)",
+        "direction": "negative",
+        "magnitude": 0.014
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0114
+      }
+    ],
+    "sample_size": 66
+  },
+  "Garia|4": {
+    "predicted_price": 12053720.0,
+    "top_factors": [
+      {
+        "label": "Area (2,117 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4507
+      },
+      {
+        "label": "Super built-up area (1,616 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3183
+      },
+      {
+        "label": "Distance from city center (19.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1751
+      },
+      {
+        "label": "Building height (15 floors)",
+        "direction": "positive",
+        "magnitude": 0.1294
+      },
+      {
+        "label": "Carpet area (1,539 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0568
+      },
+      {
+        "label": "Luxury score (3.3)",
+        "direction": "negative",
+        "magnitude": 0.0212
+      }
+    ],
+    "sample_size": 15
+  },
+  "Joka|2": {
+    "predicted_price": 4561709.0,
+    "top_factors": [
+      {
+        "label": "Building height (14 floors)",
+        "direction": "positive",
+        "magnitude": 0.2204
+      },
+      {
+        "label": "Area (843 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1346
+      },
+      {
+        "label": "Distance from city center (16.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1257
+      },
+      {
+        "label": "Super built-up area (880 sqft)",
+        "direction": "negative",
+        "magnitude": 0.122
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0802
+      },
+      {
+        "label": "Carpet area (603 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0249
+      }
+    ],
+    "sample_size": 98
+  },
+  "Joka|3": {
+    "predicted_price": 776108.5,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.389
+      },
+      {
+        "label": "Super built-up area (1,150 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2316
+      },
+      {
+        "label": "Property type: Residential Land",
+        "direction": "negative",
+        "magnitude": 0.1965
+      },
+      {
+        "label": "Distance from city center (15.8 km)",
+        "direction": "negative",
+        "magnitude": 0.1734
+      },
+      {
+        "label": "Area (1,100 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1625
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "negative",
+        "magnitude": 0.1247
+      }
+    ],
+    "sample_size": 200
+  },
+  "Joka|4": {
+    "predicted_price": 9432334.0,
+    "top_factors": [
+      {
+        "label": "Area (1,648 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3286
+      },
+      {
+        "label": "Super built-up area (2,385 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2964
+      },
+      {
+        "label": "Distance from city center (18.8 km)",
+        "direction": "negative",
+        "magnitude": 0.1244
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0865
+      },
+      {
+        "label": "Building height (0 floors)",
+        "direction": "negative",
+        "magnitude": 0.0732
+      },
+      {
+        "label": "Carpet area (1,799 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0706
+      }
+    ],
+    "sample_size": 13
+  },
+  "Kalikapur|2": {
+    "predicted_price": 4152378.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (822 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2587
+      },
+      {
+        "label": "Area (820 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1407
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0992
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0789
+      },
+      {
+        "label": "Distance from city center (8.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0737
+      },
+      {
+        "label": "Locality: Kalikapur",
+        "direction": "positive",
+        "magnitude": 0.0423
+      }
+    ],
+    "sample_size": 13
+  },
+  "Kalikapur|3": {
+    "predicted_price": 7138610.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.17
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1077
+      },
+      {
+        "label": "Area (1,240 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0837
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0603
+      },
+      {
+        "label": "Distance from city center (8.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0602
+      },
+      {
+        "label": "Nearby landmarks (50)",
+        "direction": "positive",
+        "magnitude": 0.0266
+      }
+    ],
+    "sample_size": 23
+  },
+  "Kamalgazi|2": {
+    "predicted_price": 3561930.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (859 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1671
+      },
+      {
+        "label": "Area (880 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1272
+      },
+      {
+        "label": "Distance from city center (14.4 km)",
+        "direction": "negative",
+        "magnitude": 0.1092
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0986
+      },
+      {
+        "label": "Locality: Kamalgazi",
+        "direction": "positive",
+        "magnitude": 0.0522
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0305
+      }
+    ],
+    "sample_size": 18
+  },
+  "Kamalgazi|3": {
+    "predicted_price": 5651188.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,305 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1444
+      },
+      {
+        "label": "Distance from city center (14.4 km)",
+        "direction": "negative",
+        "magnitude": 0.1375
+      },
+      {
+        "label": "Area (1,270 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1239
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1002
+      },
+      {
+        "label": "Locality: Kamalgazi",
+        "direction": "positive",
+        "magnitude": 0.0273
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.017
+      }
+    ],
+    "sample_size": 32
+  },
+  "Kasba|2": {
+    "predicted_price": 4266847.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (825 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2645
+      },
+      {
+        "label": "Area (850 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1223
+      },
+      {
+        "label": "Distance from city center (6.6 km)",
+        "direction": "positive",
+        "magnitude": 0.1212
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.096
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0898
+      },
+      {
+        "label": "Nearby landmarks (50)",
+        "direction": "positive",
+        "magnitude": 0.0317
+      }
+    ],
+    "sample_size": 19
+  },
+  "Kasba|3": {
+    "predicted_price": 7687001.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,200 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1604
+      },
+      {
+        "label": "Distance from city center (6.0 km)",
+        "direction": "positive",
+        "magnitude": 0.1527
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.0987
+      },
+      {
+        "label": "Area (1,231 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0773
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0721
+      },
+      {
+        "label": "Carpet area (1,150 sqft)",
+        "direction": "positive",
+        "magnitude": 0.029
+      }
+    ],
+    "sample_size": 16
+  },
+  "Kestopur|2": {
+    "predicted_price": 3056359.75,
+    "top_factors": [
+      {
+        "label": "Super built-up area (860 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2179
+      },
+      {
+        "label": "Area (858 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1521
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1207
+      },
+      {
+        "label": "Distance from city center (7.6 km)",
+        "direction": "positive",
+        "magnitude": 0.0692
+      },
+      {
+        "label": "Locality: Kestopur",
+        "direction": "negative",
+        "magnitude": 0.0392
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "negative",
+        "magnitude": 0.0294
+      }
+    ],
+    "sample_size": 54
+  },
+  "Kestopur|3": {
+    "predicted_price": 4696631.0,
+    "top_factors": [
+      {
+        "label": "Area (1,145 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1178
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1177
+      },
+      {
+        "label": "Distance from city center (7.5 km)",
+        "direction": "positive",
+        "magnitude": 0.0723
+      },
+      {
+        "label": "Super built-up area (1,145 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0715
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0447
+      },
+      {
+        "label": "Nearby banks",
+        "direction": "negative",
+        "magnitude": 0.0322
+      }
+    ],
+    "sample_size": 24
+  },
+  "Konnagar|2": {
+    "predicted_price": 1946417.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (768 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3006
+      },
+      {
+        "label": "Area (768 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1772
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1546
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1248
+      },
+      {
+        "label": "Distance from city center (14.1 km)",
+        "direction": "negative",
+        "magnitude": 0.088
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0491
+      }
+    ],
+    "sample_size": 42
+  },
+  "Konnagar|3": {
+    "predicted_price": 2984935.75,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1672
+      },
+      {
+        "label": "Distance from city center (14.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1118
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1074
+      },
+      {
+        "label": "Super built-up area (1,122 sqft)",
+        "direction": "negative",
+        "magnitude": 0.053
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0366
+      },
+      {
+        "label": "Area (1,076 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0306
+      }
+    ],
+    "sample_size": 17
+  },
+  "Lake Town|2": {
+    "predicted_price": 5312401.5,
+    "top_factors": [
+      {
+        "label": "Distance from city center (5.3 km)",
+        "direction": "positive",
+        "magnitude": 0.1444
+      },
+      {
+        "label": "Super built-up area (955 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1161
+      },
+      {
+        "label": "Building height (7 floors)",
+        "direction": "positive",
+        "magnitude": 0.1112
+      },
+      {
+        "label": "Area (889 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1107
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0376
+      },
+      {
+        "label": "Luxury score (27.7)",
+        "direction": "positive",
+        "magnitude": 0.0178
+      }
+    ],
+    "sample_size": 9
+  },
+  "Lake Town|3": {
+    "predicted_price": 10405930.0,
+    "top_factors": [
+      {
+        "label": "Area (1,588 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2882
+      },
+      {
+        "label": "Super built-up area (1,524 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2595
+      },
+      {
+        "label": "Distance from city center (5.1 km)",
+        "direction": "positive",
+        "magnitude": 0.096
+      },
+      {
+        "label": "Building height (10 floors)",
+        "direction": "positive",
+        "magnitude": 0.0595
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0453
+      },
+      {
+        "label": "Carpet area (1,338 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0336
+      }
+    ],
+    "sample_size": 18
+  },
+  "Lake Town|4": {
+    "predicted_price": 12921744.0,
+    "top_factors": [
+      {
+        "label": "Area (1,940 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4118
+      },
+      {
+        "label": "Super built-up area (1,945 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3314
+      },
+      {
+        "label": "Distance from city center (4.7 km)",
+        "direction": "positive",
+        "magnitude": 0.075
+      },
+      {
+        "label": "Building height (10 floors)",
+        "direction": "positive",
+        "magnitude": 0.0729
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0504
+      },
+      {
+        "label": "Carpet area (1,685 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0384
+      }
+    ],
+    "sample_size": 9
+  },
+  "Madhyamgram|2": {
+    "predicted_price": 3282161.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (892 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1224
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1022
+      },
+      {
+        "label": "Area (894 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0995
+      },
+      {
+        "label": "Distance from city center (16.3 km)",
+        "direction": "negative",
+        "magnitude": 0.0838
+      },
+      {
+        "label": "Building height (6 floors)",
+        "direction": "negative",
+        "magnitude": 0.053
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0254
+      }
+    ],
+    "sample_size": 62
+  },
+  "Madhyamgram|3": {
+    "predicted_price": 4869650.0,
+    "top_factors": [
+      {
+        "label": "Building height (11 floors)",
+        "direction": "positive",
+        "magnitude": 0.1282
+      },
+      {
+        "label": "Distance from city center (16.4 km)",
+        "direction": "negative",
+        "magnitude": 0.1078
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0994
+      },
+      {
+        "label": "Super built-up area (1,148 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0438
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0249
+      },
+      {
+        "label": "Area (1,170 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0241
+      }
+    ],
+    "sample_size": 60
+  },
+  "Madhyamgram|4": {
+    "predicted_price": 7760839.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,528 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2633
+      },
+      {
+        "label": "Area (1,528 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1995
+      },
+      {
+        "label": "Distance from city center (17.1 km)",
+        "direction": "negative",
+        "magnitude": 0.1464
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0914
+      },
+      {
+        "label": "Building height (11 floors)",
+        "direction": "positive",
+        "magnitude": 0.0717
+      },
+      {
+        "label": "Locality: Madhyamgram",
+        "direction": "negative",
+        "magnitude": 0.025
+      }
+    ],
+    "sample_size": 18
+  },
+  "Mukundapur|2": {
+    "predicted_price": 4856423.5,
+    "top_factors": [
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1101
+      },
+      {
+        "label": "Super built-up area (1,050 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0901
+      },
+      {
+        "label": "Distance from city center (9.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0789
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.053
+      },
+      {
+        "label": "Area (1,015 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0213
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0202
+      }
+    ],
+    "sample_size": 25
+  },
+  "Mukundapur|3": {
+    "predicted_price": 6761388.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,308 sqft)",
+        "direction": "positive",
+        "magnitude": 0.182
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1299
+      },
+      {
+        "label": "Area (1,306 sqft)",
+        "direction": "positive",
+        "magnitude": 0.106
+      },
+      {
+        "label": "Distance from city center (9.8 km)",
+        "direction": "positive",
+        "magnitude": 0.061
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0412
+      },
+      {
+        "label": "Carpet area (1,399 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0406
+      }
+    ],
+    "sample_size": 35
+  },
+  "Nager Bazar|2": {
+    "predicted_price": 3546065.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (845 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2005
+      },
+      {
+        "label": "Area (845 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1357
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.1029
+      },
+      {
+        "label": "Distance from city center (7.6 km)",
+        "direction": "positive",
+        "magnitude": 0.0826
+      },
+      {
+        "label": "Carpet area (587 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0436
+      },
+      {
+        "label": "Nearby landmarks (50)",
+        "direction": "positive",
+        "magnitude": 0.0252
+      }
+    ],
+    "sample_size": 37
+  },
+  "Nager Bazar|3": {
+    "predicted_price": 4687927.0,
+    "top_factors": [
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.0976
+      },
+      {
+        "label": "Super built-up area (1,120 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0937
+      },
+      {
+        "label": "Area (1,120 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0839
+      },
+      {
+        "label": "Distance from city center (7.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0813
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0455
+      },
+      {
+        "label": "Nearby landmarks (50)",
+        "direction": "positive",
+        "magnitude": 0.0294
+      }
+    ],
+    "sample_size": 17
+  },
+  "Narendrapur|2": {
+    "predicted_price": 3271920.25,
+    "top_factors": [
+      {
+        "label": "Distance from city center (15.6 km)",
+        "direction": "negative",
+        "magnitude": 0.1717
+      },
+      {
+        "label": "Area (861 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1538
+      },
+      {
+        "label": "Super built-up area (910 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1162
+      },
+      {
+        "label": "Locality: Narendrapur",
+        "direction": "negative",
+        "magnitude": 0.0435
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0267
+      },
+      {
+        "label": "Building height (8 floors)",
+        "direction": "positive",
+        "magnitude": 0.0263
+      }
+    ],
+    "sample_size": 64
+  },
+  "Narendrapur|3": {
+    "predicted_price": 4448394.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (15.8 km)",
+        "direction": "negative",
+        "magnitude": 0.1625
+      },
+      {
+        "label": "Area (1,154 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0697
+      },
+      {
+        "label": "Super built-up area (1,166 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Building height (8 floors)",
+        "direction": "positive",
+        "magnitude": 0.05
+      },
+      {
+        "label": "Locality: Narendrapur",
+        "direction": "negative",
+        "magnitude": 0.029
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0205
+      }
+    ],
+    "sample_size": 90
+  },
+  "Nayabad|2": {
+    "predicted_price": 3060676.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (818 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2527
+      },
+      {
+        "label": "Building height (3 floors)",
+        "direction": "negative",
+        "magnitude": 0.1529
+      },
+      {
+        "label": "Area (818 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1443
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0409
+      },
+      {
+        "label": "Carpet area (560 sqft)",
+        "direction": "negative",
+        "magnitude": 0.04
+      },
+      {
+        "label": "Distance from city center (11.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0197
+      }
+    ],
+    "sample_size": 64
+  },
+  "Nayabad|3": {
+    "predicted_price": 4711471.0,
+    "top_factors": [
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1398
+      },
+      {
+        "label": "Area (1,170 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0896
+      },
+      {
+        "label": "Super built-up area (1,170 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0494
+      },
+      {
+        "label": "Locality: Nayabad",
+        "direction": "negative",
+        "magnitude": 0.0372
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0282
+      },
+      {
+        "label": "Metro connectivity",
+        "direction": "positive",
+        "magnitude": 0.0157
+      }
+    ],
+    "sample_size": 64
+  },
+  "New Alipore|2": {
+    "predicted_price": 6890787.5,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.2 km)",
+        "direction": "positive",
+        "magnitude": 0.1495
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1075
+      },
+      {
+        "label": "Building height (6 floors)",
+        "direction": "negative",
+        "magnitude": 0.0712
+      },
+      {
+        "label": "Locality: New Alipore",
+        "direction": "positive",
+        "magnitude": 0.0539
+      },
+      {
+        "label": "Super built-up area (1,050 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0479
+      },
+      {
+        "label": "Relative floor position",
+        "direction": "positive",
+        "magnitude": 0.0349
+      }
+    ],
+    "sample_size": 8
+  },
+  "New Alipore|3": {
+    "predicted_price": 15064205.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,530 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2927
+      },
+      {
+        "label": "Distance from city center (8.2 km)",
+        "direction": "positive",
+        "magnitude": 0.1691
+      },
+      {
+        "label": "Area (1,400 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1461
+      },
+      {
+        "label": "Building height (9 floors)",
+        "direction": "positive",
+        "magnitude": 0.1121
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0878
+      },
+      {
+        "label": "Locality: New Alipore",
+        "direction": "positive",
+        "magnitude": 0.0678
+      }
+    ],
+    "sample_size": 18
+  },
+  "New Town|1": {
+    "predicted_price": 3289503.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (480 sqft)",
+        "direction": "negative",
+        "magnitude": 0.397
+      },
+      {
+        "label": "Area (490 sqft)",
+        "direction": "negative",
+        "magnitude": 0.351
+      },
+      {
+        "label": "Building height (7 floors)",
+        "direction": "positive",
+        "magnitude": 0.1525
+      },
+      {
+        "label": "Locality: New Town",
+        "direction": "positive",
+        "magnitude": 0.0666
+      },
+      {
+        "label": "Carpet area (400 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0513
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0505
+      }
+    ],
+    "sample_size": 27
+  },
+  "New Town|2": {
+    "predicted_price": 7895062.0,
+    "top_factors": [
+      {
+        "label": "Building height (13 floors)",
+        "direction": "positive",
+        "magnitude": 0.2188
+      },
+      {
+        "label": "Area (950 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0831
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0749
+      },
+      {
+        "label": "Distance from city center (11.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0725
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0356
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0343
+      }
+    ],
+    "sample_size": 245
+  },
+  "New Town|3": {
+    "predicted_price": 8894486.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,500 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2046
+      },
+      {
+        "label": "Area (1,350 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1077
+      },
+      {
+        "label": "Building height (12 floors)",
+        "direction": "positive",
+        "magnitude": 0.1008
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0418
+      },
+      {
+        "label": "Carpet area (1,116 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0279
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0182
+      }
+    ],
+    "sample_size": 525
+  },
+  "New Town|4": {
+    "predicted_price": 17091516.0,
+    "top_factors": [
+      {
+        "label": "Area (2,132 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4114
+      },
+      {
+        "label": "Super built-up area (2,385 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3613
+      },
+      {
+        "label": "Building height (13 floors)",
+        "direction": "positive",
+        "magnitude": 0.1328
+      },
+      {
+        "label": "Carpet area (1,797 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0656
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0527
+      },
+      {
+        "label": "Distance from city center (11.3 km)",
+        "direction": "positive",
+        "magnitude": 0.0377
+      }
+    ],
+    "sample_size": 82
+  },
+  "Other|1": {
+    "predicted_price": 1733158.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (510 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4783
+      },
+      {
+        "label": "Area (500 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4438
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1068
+      },
+      {
+        "label": "Carpet area (400 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0439
+      },
+      {
+        "label": "1 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0269
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0186
+      }
+    ],
+    "sample_size": 82
+  },
+  "Other|2": {
+    "predicted_price": 3856466.75,
+    "top_factors": [
+      {
+        "label": "Super built-up area (863 sqft)",
+        "direction": "negative",
+        "magnitude": 0.22
+      },
+      {
+        "label": "Area (850 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1335
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1007
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0718
+      },
+      {
+        "label": "Distance from city center (10.4 km)",
+        "direction": "positive",
+        "magnitude": 0.0558
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0198
+      }
+    ],
+    "sample_size": 907
+  },
+  "Other|3": {
+    "predicted_price": 6831010.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,330 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1707
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1212
+      },
+      {
+        "label": "Area (1,250 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0797
+      },
+      {
+        "label": "Distance from city center (9.5 km)",
+        "direction": "positive",
+        "magnitude": 0.0655
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0556
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0166
+      }
+    ],
+    "sample_size": 834
+  },
+  "Other|4": {
+    "predicted_price": 11523786.0,
+    "top_factors": [
+      {
+        "label": "Area (1,882 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4127
+      },
+      {
+        "label": "Super built-up area (2,200 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3426
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.142
+      },
+      {
+        "label": "Distance from city center (6.2 km)",
+        "direction": "positive",
+        "magnitude": 0.0756
+      },
+      {
+        "label": "Carpet area (1,685 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0432
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0427
+      }
+    ],
+    "sample_size": 83
+  },
+  "Rajarhat|1": {
+    "predicted_price": 2043720.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (630 sqft)",
+        "direction": "negative",
+        "magnitude": 0.381
+      },
+      {
+        "label": "Area (565 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3697
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.1057
+      },
+      {
+        "label": "Carpet area (600 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0373
+      },
+      {
+        "label": "Locality: Rajarhat",
+        "direction": "negative",
+        "magnitude": 0.0345
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0282
+      }
+    ],
+    "sample_size": 17
+  },
+  "Rajarhat|2": {
+    "predicted_price": 3440148.25,
+    "top_factors": [
+      {
+        "label": "Super built-up area (910 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1376
+      },
+      {
+        "label": "Area (890 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1204
+      },
+      {
+        "label": "Building height (6 floors)",
+        "direction": "negative",
+        "magnitude": 0.073
+      },
+      {
+        "label": "Distance from city center (13.1 km)",
+        "direction": "negative",
+        "magnitude": 0.0523
+      },
+      {
+        "label": "Carpet area (678 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0393
+      },
+      {
+        "label": "Locality: Rajarhat",
+        "direction": "negative",
+        "magnitude": 0.0324
+      }
+    ],
+    "sample_size": 246
+  },
+  "Rajarhat|3": {
+    "predicted_price": 6866980.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,265 sqft)",
+        "direction": "positive",
+        "magnitude": 0.1514
+      },
+      {
+        "label": "Building height (10 floors)",
+        "direction": "positive",
+        "magnitude": 0.1164
+      },
+      {
+        "label": "Distance from city center (13.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0307
+      },
+      {
+        "label": "Locality: Rajarhat",
+        "direction": "negative",
+        "magnitude": 0.0304
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0273
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0206
+      }
+    ],
+    "sample_size": 215
+  },
+  "Rajarhat|4": {
+    "predicted_price": 14467140.0,
+    "top_factors": [
+      {
+        "label": "Area (1,940 sqft)",
+        "direction": "positive",
+        "magnitude": 0.4016
+      },
+      {
+        "label": "Super built-up area (1,940 sqft)",
+        "direction": "positive",
+        "magnitude": 0.343
+      },
+      {
+        "label": "Building height (16 floors)",
+        "direction": "positive",
+        "magnitude": 0.1399
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0527
+      },
+      {
+        "label": "Locality: Rajarhat",
+        "direction": "negative",
+        "magnitude": 0.041
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0338
+      }
+    ],
+    "sample_size": 30
+  },
+  "Salt Lake|2": {
+    "predicted_price": 10427209.0,
+    "top_factors": [
+      {
+        "label": "Building height (25 floors)",
+        "direction": "positive",
+        "magnitude": 0.2796
+      },
+      {
+        "label": "Distance from city center (8.5 km)",
+        "direction": "positive",
+        "magnitude": 0.1781
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.111
+      },
+      {
+        "label": "Super built-up area (1,049 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0566
+      },
+      {
+        "label": "Floor number (12)",
+        "direction": "positive",
+        "magnitude": 0.0537
+      },
+      {
+        "label": "Area (1,050 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0464
+      }
+    ],
+    "sample_size": 11
+  },
+  "Salt Lake|3": {
+    "predicted_price": 16355846.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,508 sqft)",
+        "direction": "positive",
+        "magnitude": 0.276
+      },
+      {
+        "label": "Area (1,508 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2255
+      },
+      {
+        "label": "Building height (25 floors)",
+        "direction": "positive",
+        "magnitude": 0.2059
+      },
+      {
+        "label": "Distance from city center (8.6 km)",
+        "direction": "positive",
+        "magnitude": 0.1197
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0699
+      },
+      {
+        "label": "Locality: Salt Lake",
+        "direction": "positive",
+        "magnitude": 0.0432
+      }
+    ],
+    "sample_size": 24
+  },
+  "Sodepur|1": {
+    "predicted_price": 1550512.875,
+    "top_factors": [
+      {
+        "label": "Super built-up area (544 sqft)",
+        "direction": "negative",
+        "magnitude": 0.4213
+      },
+      {
+        "label": "Area (544 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3643
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1351
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1163
+      },
+      {
+        "label": "Distance from city center (14.2 km)",
+        "direction": "negative",
+        "magnitude": 0.0586
+      },
+      {
+        "label": "Carpet area (520 sqft)",
+        "direction": "negative",
+        "magnitude": 0.04
+      }
+    ],
+    "sample_size": 8
+  },
+  "Sodepur|2": {
+    "predicted_price": 2528787.5,
+    "top_factors": [
+      {
+        "label": "Super built-up area (833 sqft)",
+        "direction": "negative",
+        "magnitude": 0.2381
+      },
+      {
+        "label": "Area (820 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1367
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1111
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0988
+      },
+      {
+        "label": "Distance from city center (14.6 km)",
+        "direction": "negative",
+        "magnitude": 0.0845
+      },
+      {
+        "label": "Locality: Sodepur",
+        "direction": "negative",
+        "magnitude": 0.0431
+      }
+    ],
+    "sample_size": 66
+  },
+  "Sodepur|3": {
+    "predicted_price": 3465605.5,
+    "top_factors": [
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1212
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1176
+      },
+      {
+        "label": "Distance from city center (14.6 km)",
+        "direction": "negative",
+        "magnitude": 0.108
+      },
+      {
+        "label": "Area (1,108 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0729
+      },
+      {
+        "label": "Super built-up area (1,106 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0701
+      },
+      {
+        "label": "Locality: Sodepur",
+        "direction": "negative",
+        "magnitude": 0.0329
+      }
+    ],
+    "sample_size": 48
+  },
+  "Thakurpukur|2": {
+    "predicted_price": 2719432.5,
+    "top_factors": [
+      {
+        "label": "Area (851 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1592
+      },
+      {
+        "label": "Super built-up area (924 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1269
+      },
+      {
+        "label": "Distance from city center (14.8 km)",
+        "direction": "negative",
+        "magnitude": 0.1223
+      },
+      {
+        "label": "Building height (5 floors)",
+        "direction": "negative",
+        "magnitude": 0.1139
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0989
+      },
+      {
+        "label": "Locality: Thakurpukur",
+        "direction": "negative",
+        "magnitude": 0.0652
+      }
+    ],
+    "sample_size": 14
+  },
+  "Thakurpukur|3": {
+    "predicted_price": 576270.8125,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.3496
+      },
+      {
+        "label": "Super built-up area (1,150 sqft)",
+        "direction": "negative",
+        "magnitude": 0.3173
+      },
+      {
+        "label": "Gated community",
+        "direction": "negative",
+        "magnitude": 0.2854
+      },
+      {
+        "label": "Area (1,100 sqft)",
+        "direction": "negative",
+        "magnitude": 0.1878
+      },
+      {
+        "label": "Locality: Thakurpukur",
+        "direction": "negative",
+        "magnitude": 0.1817
+      },
+      {
+        "label": "Building height (4 floors)",
+        "direction": "negative",
+        "magnitude": 0.1344
+      }
+    ],
+    "sample_size": 32
+  },
+  "Tollygunge|2": {
+    "predicted_price": 8539879.0,
+    "top_factors": [
+      {
+        "label": "Building height (17 floors)",
+        "direction": "positive",
+        "magnitude": 0.2898
+      },
+      {
+        "label": "Distance from city center (9.1 km)",
+        "direction": "positive",
+        "magnitude": 0.1473
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0929
+      },
+      {
+        "label": "Area (884 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0837
+      },
+      {
+        "label": "Super built-up area (956 sqft)",
+        "direction": "negative",
+        "magnitude": 0.0477
+      },
+      {
+        "label": "Gated community",
+        "direction": "positive",
+        "magnitude": 0.0204
+      }
+    ],
+    "sample_size": 93
+  },
+  "Tollygunge|3": {
+    "predicted_price": 13127034.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (1,450 sqft)",
+        "direction": "positive",
+        "magnitude": 0.2774
+      },
+      {
+        "label": "Building height (18 floors)",
+        "direction": "positive",
+        "magnitude": 0.211
+      },
+      {
+        "label": "Distance from city center (9.2 km)",
+        "direction": "positive",
+        "magnitude": 0.1225
+      },
+      {
+        "label": "Area (1,266 sqft)",
+        "direction": "positive",
+        "magnitude": 0.073
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0692
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0277
+      }
+    ],
+    "sample_size": 139
+  },
+  "Tollygunge|4": {
+    "predicted_price": 14562570.0,
+    "top_factors": [
+      {
+        "label": "Super built-up area (2,232 sqft)",
+        "direction": "positive",
+        "magnitude": 0.3548
+      },
+      {
+        "label": "Area (1,514 sqft)",
+        "direction": "positive",
+        "magnitude": 0.236
+      },
+      {
+        "label": "Building height (19 floors)",
+        "direction": "positive",
+        "magnitude": 0.1899
+      },
+      {
+        "label": "Distance from city center (10.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Carpet area (1,600 sqft)",
+        "direction": "positive",
+        "magnitude": 0.0548
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.042
+      }
+    ],
+    "sample_size": 42
+  }
+}

@@ -1,0 +1,614 @@
+{
+  "__global__": {
+    "predicted_price": 26812420.0,
+    "top_factors": [
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.1333
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1223
+      },
+      {
+        "label": "Distance from city center (14.3 km)",
+        "direction": "positive",
+        "magnitude": 0.1181
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0864
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0719
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0555
+      }
+    ],
+    "sample_size": 812
+  },
+  "Bagalur|2": {
+    "predicted_price": 10363404.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (21.4 km)",
+        "direction": "negative",
+        "magnitude": 0.2075
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0815
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.078
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0671
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0385
+      },
+      {
+        "label": "Facing: North",
+        "direction": "negative",
+        "magnitude": 0.0222
+      }
+    ],
+    "sample_size": 11
+  },
+  "Chokkanahalli, Near Thanisandra|2": {
+    "predicted_price": 17944924.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1279
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0686
+      },
+      {
+        "label": "Distance from city center (13.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0629
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.056
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0537
+      }
+    ],
+    "sample_size": 12
+  },
+  "Devanahalli|2": {
+    "predicted_price": 9910071.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (31.4 km)",
+        "direction": "negative",
+        "magnitude": 0.2137
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.1133
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.1073
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0797
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0239
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.0148
+      }
+    ],
+    "sample_size": 11
+  },
+  "Electronic City|2": {
+    "predicted_price": 12363879.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.2093
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.1
+      },
+      {
+        "label": "Locality: Electronic City",
+        "direction": "positive",
+        "magnitude": 0.086
+      },
+      {
+        "label": "Distance from city center (18.3 km)",
+        "direction": "negative",
+        "magnitude": 0.0742
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0626
+      },
+      {
+        "label": "Facing: East",
+        "direction": "positive",
+        "magnitude": 0.0304
+      }
+    ],
+    "sample_size": 8
+  },
+  "Gunjur, Near Varthur|2": {
+    "predicted_price": 15166784.0,
+    "top_factors": [
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0735
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0602
+      },
+      {
+        "label": "Locality: Gunjur, Near Varthur",
+        "direction": "negative",
+        "magnitude": 0.0471
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0398
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0394
+      },
+      {
+        "label": "Distance from city center (16.0 km)",
+        "direction": "negative",
+        "magnitude": 0.0283
+      }
+    ],
+    "sample_size": 10
+  },
+  "Hebbal|2": {
+    "predicted_price": 21374280.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (9.1 km)",
+        "direction": "positive",
+        "magnitude": 0.1344
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0983
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0682
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0598
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0593
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0549
+      }
+    ],
+    "sample_size": 12
+  },
+  "Hoodi|2": {
+    "predicted_price": 41955904.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (14.1 km)",
+        "direction": "positive",
+        "magnitude": 0.2118
+      },
+      {
+        "label": "Locality: Hoodi",
+        "direction": "positive",
+        "magnitude": 0.2017
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1561
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1372
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.136
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0546
+      }
+    ],
+    "sample_size": 11
+  },
+  "KR Puram|2": {
+    "predicted_price": 16157002.0,
+    "top_factors": [
+      {
+        "label": "Locality: KR Puram",
+        "direction": "negative",
+        "magnitude": 0.1099
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0949
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0644
+      },
+      {
+        "label": "Distance from city center (13.8 km)",
+        "direction": "positive",
+        "magnitude": 0.0515
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0505
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.0216
+      }
+    ],
+    "sample_size": 8
+  },
+  "Kanakapura Road|2": {
+    "predicted_price": 26445312.0,
+    "top_factors": [
+      {
+        "label": "Locality: Kanakapura Road",
+        "direction": "positive",
+        "magnitude": 0.2
+      },
+      {
+        "label": "Distance from city center (10.3 km)",
+        "direction": "positive",
+        "magnitude": 0.1911
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.1403
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0542
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0506
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0217
+      }
+    ],
+    "sample_size": 8
+  },
+  "Other|2": {
+    "predicted_price": 27027660.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.143
+      },
+      {
+        "label": "Distance from city center (14.2 km)",
+        "direction": "positive",
+        "magnitude": 0.115
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.1103
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0919
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0756
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0515
+      }
+    ],
+    "sample_size": 545
+  },
+  "Sarjapur Road|2": {
+    "predicted_price": 18287204.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (21.5 km)",
+        "direction": "negative",
+        "magnitude": 0.1377
+      },
+      {
+        "label": "Locality: Sarjapur Road",
+        "direction": "positive",
+        "magnitude": 0.1146
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.102
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0788
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0781
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0732
+      }
+    ],
+    "sample_size": 18
+  },
+  "Thanisandra|2": {
+    "predicted_price": 17336712.0,
+    "top_factors": [
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0895
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0666
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0574
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0498
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.0391
+      },
+      {
+        "label": "Ready to move in",
+        "direction": "positive",
+        "magnitude": 0.0271
+      }
+    ],
+    "sample_size": 15
+  },
+  "Thanisandra Main Road, Bangalore North|2": {
+    "predicted_price": 29487984.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (11.2 km)",
+        "direction": "positive",
+        "magnitude": 0.2036
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.198
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1026
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0969
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0641
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0395
+      }
+    ],
+    "sample_size": 8
+  },
+  "Unknown|2": {
+    "predicted_price": 16440889.0,
+    "top_factors": [
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0695
+      },
+      {
+        "label": "RERA registered",
+        "direction": "negative",
+        "magnitude": 0.0656
+      },
+      {
+        "label": "Distance from city center (14.0 km)",
+        "direction": "positive",
+        "magnitude": 0.0646
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0604
+      },
+      {
+        "label": "0 balconies",
+        "direction": "negative",
+        "magnitude": 0.0416
+      },
+      {
+        "label": "Locality: Other",
+        "direction": "positive",
+        "magnitude": 0.0317
+      }
+    ],
+    "sample_size": 16
+  },
+  "Uttarahalli|2": {
+    "predicted_price": 19562580.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (8.9 km)",
+        "direction": "positive",
+        "magnitude": 0.1474
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.0854
+      },
+      {
+        "label": "1 balconies",
+        "direction": "negative",
+        "magnitude": 0.0681
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0656
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0618
+      },
+      {
+        "label": "Geographic location",
+        "direction": "negative",
+        "magnitude": 0.0257
+      }
+    ],
+    "sample_size": 8
+  },
+  "Whitefield|2": {
+    "predicted_price": 18615652.0,
+    "top_factors": [
+      {
+        "label": "Distance from city center (17.0 km)",
+        "direction": "negative",
+        "magnitude": 0.1141
+      },
+      {
+        "label": "Geographic location",
+        "direction": "positive",
+        "magnitude": 0.1086
+      },
+      {
+        "label": "2 bathrooms",
+        "direction": "negative",
+        "magnitude": 0.0773
+      },
+      {
+        "label": "2 balconies",
+        "direction": "positive",
+        "magnitude": 0.067
+      },
+      {
+        "label": "RERA registered",
+        "direction": "positive",
+        "magnitude": 0.0566
+      },
+      {
+        "label": "Locality: Whitefield",
+        "direction": "positive",
+        "magnitude": 0.0304
+      }
+    ],
+    "sample_size": 29
+  }
+}
