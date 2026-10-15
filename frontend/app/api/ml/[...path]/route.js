@@ -1,8 +1,19 @@
-const ML_SERVICE_URL =
-  process.env.ML_SERVICE_URL ||
-  (process.env.NODE_ENV === 'production'
-    ? 'https://real-estate-ai-0j6r.onrender.com'
-    : 'http://localhost:8000');
+function getMlServiceUrl() {
+  const envUrl = process.env.ML_SERVICE_URL;
+  const isVercel = !!process.env.VERCEL || process.env.NODE_ENV === 'production';
+
+  // If on Vercel, localhost/127.0.0.1 is unreachable -- always use deployed Render service
+  if (isVercel) {
+    if (!envUrl || envUrl.includes('localhost') || envUrl.includes('127.0.0.1')) {
+      return 'https://real-estate-ai-0j6r.onrender.com';
+    }
+  }
+
+  return envUrl || 'http://127.0.0.1:8000';
+}
+
+const ML_SERVICE_URL = getMlServiceUrl();
+
 
 
 async function forward(request, path) {
