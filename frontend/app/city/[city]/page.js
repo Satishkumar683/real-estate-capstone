@@ -5,7 +5,9 @@ import CityHubCard from '@/features/city-hub/CityHubCard';
 export default async function CityHubPage({ params }) {
   const { city } = await params;
   const cities = await fetchFromMlService('/cities').catch(() => []);
-  const cityInfo = cities.find((c) => c.slug === city);
+  const cityInfo =
+    cities.find((c) => c.slug === city) ||
+    (city === 'gurgaon' ? { slug: 'gurgaon', label: 'Gurgaon', count: 7884 } : null);
 
   if (!cityInfo) {
     notFound();

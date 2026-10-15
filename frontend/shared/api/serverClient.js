@@ -8,7 +8,12 @@
  * through the proxy.
  */
 
-const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
+const ML_SERVICE_URL =
+  process.env.ML_SERVICE_URL ||
+  (process.env.NODE_ENV === 'production'
+    ? 'https://real-estate-ai-0j6r.onrender.com'
+    : 'http://localhost:8000');
+
 
 export async function fetchFromMlService(path, options = {}) {
   const res = await fetch(`${ML_SERVICE_URL}${path}`, {

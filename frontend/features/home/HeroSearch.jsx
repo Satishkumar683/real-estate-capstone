@@ -7,9 +7,10 @@ import Button from '@/shared/ui/Button';
 
 export default function HeroSearch({ cities }) {
   const router = useRouter();
-  const [city, setCity] = useState(cities[0]?.slug ?? null);
+  const activeCities = cities && cities.length > 0 ? cities : [{ slug: 'gurgaon', label: 'Gurgaon' }];
+  const [city, setCity] = useState(activeCities[0]?.slug || 'gurgaon');
 
-  const cityOptions = cities.map((c) => ({ value: c.slug, label: c.label }));
+  const cityOptions = activeCities.map((c) => ({ value: c.slug, label: c.label }));
 
   const handleSearch = () => {
     if (!city) return;

@@ -1,4 +1,9 @@
-const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:8000';
+const ML_SERVICE_URL =
+  process.env.ML_SERVICE_URL ||
+  (process.env.NODE_ENV === 'production'
+    ? 'https://real-estate-ai-0j6r.onrender.com'
+    : 'http://localhost:8000');
+
 
 async function forward(request, path) {
   const targetPath = Array.isArray(path) ? path.join('/') : path;

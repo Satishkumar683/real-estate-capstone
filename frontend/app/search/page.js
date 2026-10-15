@@ -6,12 +6,6 @@ import { fetchFromMlService } from '@/shared/api/serverClient';
 // this is the place to use it instead of always picking the first one.
 export default async function SearchIndexPage() {
   const cities = await fetchFromMlService('/cities').catch(() => []);
-  if (cities.length > 0) {
-    redirect(`/search/${cities[0].slug}`);
-  }
-  return (
-    <main className="pt-24 max-w-xl mx-auto px-6 pb-20 text-center">
-      <p className="text-charcoal">No cities are live yet.</p>
-    </main>
-  );
-}
+  const target = cities.length > 0 ? cities[0].slug : 'gurgaon';
+  redirect(`/search/${target}`);
+}
