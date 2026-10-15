@@ -18,6 +18,7 @@ class RecommendRequest(BaseModel):
 
 class ListingCard(BaseModel):
     prop_id: str
+    city: Optional[str] = None
     society_name: str
     locality: str
     property_type: str
@@ -33,6 +34,31 @@ class ListingCard(BaseModel):
     thumbnail_url: Optional[str] = None
     images: list[str] = []
     description: Optional[str] = None
+
+
+class ListingDetail(ListingCard):
+    bathroom_num: Optional[float] = None
+    balcony_num: Optional[float] = None
+    floor_num: Optional[float] = None
+    total_floor: Optional[float] = None
+    facing_text: Optional[str] = None
+    is_ready_to_move: Optional[bool] = None
+    is_resale: Optional[bool] = None
+    is_rera: Optional[bool] = None
+    is_gated_community: Optional[bool] = None
+    is_ground_floor: Optional[bool] = None
+    is_top_floor: Optional[bool] = None
+    amenities_count: Optional[int] = None
+    features_count: Optional[int] = None
+    usp_count: Optional[int] = None
+    total_nearby_landmarks: Optional[int] = None
+    nearby_landmarks: dict[str, int] = {}
+    carpet_sqft: Optional[float] = None
+    superbuiltup_sqft: Optional[float] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
+    prop_heading: Optional[str] = None
+    similar_listings: list[ListingCard] = []
 
 
 class RecommendResponse(BaseModel):

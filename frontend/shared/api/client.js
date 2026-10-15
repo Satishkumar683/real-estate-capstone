@@ -77,8 +77,10 @@ export function explainPrediction(city, fields) {
     body: JSON.stringify(fields),
   });
 }
-
-/** GET /{city}/listing/{propId} -> ListingCard (full detail) */
-export function getListing(city, propId) {
-  return request(`/${city}/listing/${encodeURIComponent(propId)}`);
+/** GET /{city}/listing/{propId} or /listing/{propId} -> ListingDetail (full detail) */
+export function getListing(cityOrPropId, maybePropId) {
+  if (maybePropId) {
+    return request(`/${cityOrPropId}/listing/${encodeURIComponent(maybePropId)}`);
+  }
+  return request(`/listing/${encodeURIComponent(cityOrPropId)}`);
 }

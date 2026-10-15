@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import Badge from '@/shared/ui/Badge';
 import ImagePlaceholder from '@/shared/ui/ImagePlaceholder';
@@ -58,12 +59,12 @@ export default function PropertyCard({ listing, cityLabel }) {
           <span>{formatArea(listing.area_sqft)}</span>
         </div>
 
-        <a
-          href={`/listing/${listing.prop_id}`}
+        <Link
+          href={`/listing/${listing.prop_id}${listing.city ? `?city=${listing.city}` : ''}`}
           className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-gold hover:underline"
         >
           View details &rarr;
-        </a>
+        </Link>
       </div>
     </article>
   );

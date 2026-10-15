@@ -9,9 +9,9 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.analytics import build_analytics
 from app.defaults import build_locality_defaults, build_feature_row
-from app.recommender import recommend_properties, predict_single, get_shap_explanation, build_insight_sentence
+from app.recommender import recommend_properties, predict_single, predict_prices, get_shap_explanation, build_insight_sentence
 from app.schemas import (
-    RecommendRequest, RecommendResponse, ListingCard,
+    RecommendRequest, RecommendResponse, ListingCard, ListingDetail,
     PredictRequest, PredictResponse, ExplainResponse,
 )
 
@@ -125,6 +125,7 @@ def _attach_display_info(city: str, rows: pd.DataFrame) -> list[ListingCard]:
             pass
         cards.append(ListingCard(
             prop_id=r["PROP_ID"],
+            city=city,
             society_name=r.get("SOCIETY_NAME", "Unknown"),
             locality=r["LOCALITY_GROUPED"],
             property_type=r["PROPERTY_TYPE"],
@@ -213,16 +214,131 @@ def predict(city: str, req: PredictRequest):
     )
 
 
-@app.get("/{city}/listing/{prop_id}")
+@app.get("/{city}/listing/{prop_id}", response_model=ListingDetail)
 def get_listing(city: str, prop_id: str):
     city_data = _city_state(city)
     row = city_data["features_df"][city_data["features_df"]["PROP_ID"] == prop_id]
     if row.empty:
         raise HTTPException(status_code=404, detail="Listing not found")
-    cards = _attach_display_info(city, row.assign(
-        PREDICTED_PRICE=row["PRICE"], VALUE_SCORE=0.0, RANK_SCORE=0.0,
-    ))
-    return cards[0]
+
+    pred_price = float(predict_prices(city_data["model"], row)[0])
+    actual_price = float(row["PRICE"].iloc[0])
+    value_score = (pred_price - actual_price) / pred_price if pred_price else 0.0
+
+    locality = row["LOCALITY_GROUPED"].iloc[0]
+    candidates = city_data["features_df"][
+        (city_data["features_df"]["PROP_ID"] != prop_id) &
+        (city_data["features_df"]["LOCALITY_GROUPED"] == locality)
+    ]
+    if len(candidates) < 3:
+        candidates = city_data["features_df"][
+            (city_data["features_df"]["PROP_ID"] != prop_id) &
+            (city_data["features_df"]["PROPERTY_TYPE"] == row["PROPERTY_TYPE"].iloc[0])
+        ]
+    similar_sample = candidates.head(3).copy()
+    if not similar_sample.empty:
+        sim_pred = predict_prices(city_data["model"], similar_sample)
+        sim_val = (sim_pred - similar_sample["PRICE"]) / sim_pred
+        similar_sample = similar_sample.assign(
+            PREDICTED_PRICE=sim_pred,
+            VALUE_SCORE=sim_val,
+            RANK_SCORE=0.0,
+        )
+        similar_cards = _attach_display_info(city, similar_sample)
+    else:
+        similar_cards = []
+
+    display_df = city_data["display_df"]
+    disp_row = display_df[display_df["PROP_ID"] == prop_id]
+    images = []
+    prop_heading = None
+    description = row["DESCRIPTION"].iloc[0] if "DESCRIPTION" in row else None
+    if not disp_row.empty:
+        disp_r = disp_row.iloc[0]
+        prop_heading = disp_r.get("PROP_HEADING")
+        if pd.notna(disp_r.get("DESCRIPTION")):
+            description = disp_r.get("DESCRIPTION")
+        try:
+            images = json.loads(disp_r.get("PROPERTY_IMAGES", "[]") or "[]")
+        except (json.JSONDecodeError, TypeError):
+            images = []
+
+    r = row.iloc[0]
+    nearby_landmarks = {}
+    for k, label in [
+        ("NEARBY_SHOPPING", "Shopping"),
+        ("NEARBY_EDUCATION", "Education"),
+        ("NEARBY_HOSPITAL", "Hospitals"),
+        ("NEARBY_METROSTATION", "Metro"),
+        ("NEARBY_RAILWAYSTATION", "Railway"),
+        ("NEARBY_CONNECTIVITY", "Road Connectivity"),
+        ("NEARBY_BANK", "Banks"),
+        ("NEARBY_PARK", "Parks"),
+    ]:
+        val = r.get(k)
+        if pd.notna(val) and float(val) > 0:
+            nearby_landmarks[label] = int(val)
+
+    def safe_float(v):
+        return float(v) if pd.notna(v) else None
+
+    def safe_int(v):
+        return int(v) if pd.notna(v) else None
+
+    def safe_bool(v):
+        return bool(v) if pd.notna(v) else False
+
+    return ListingDetail(
+        prop_id=prop_id,
+        city=city,
+        society_name=str(r.get("SOCIETY_NAME") or "Unknown"),
+        locality=str(r["LOCALITY_GROUPED"]),
+        property_type=str(r["PROPERTY_TYPE"]),
+        bhk=float(r["BHK"]),
+        area_sqft=float(r["AREA_SQFT"]),
+        price=actual_price,
+        predicted_price=round(pred_price, -3),
+        value_score=round(value_score, 4),
+        luxury_score=float(r.get("LUXURY_SCORE", 0.0)),
+        dist_from_center_km=float(r.get("DIST_FROM_CENTER_KM", 0.0)),
+        furnish=str(r.get("FURNISH") or "Unknown"),
+        rank_score=0.0,
+        thumbnail_url=(images[0] if images else None),
+        images=images,
+        description=str(description) if pd.notna(description) else None,
+        bathroom_num=safe_float(r.get("BATHROOM_NUM")),
+        balcony_num=safe_float(r.get("BALCONY_NUM")),
+        floor_num=safe_float(r.get("FLOOR_NUM")),
+        total_floor=safe_float(r.get("TOTAL_FLOOR")),
+        facing_text=str(r.get("FACING_TEXT")) if pd.notna(r.get("FACING_TEXT")) else None,
+        is_ready_to_move=safe_bool(r.get("IS_READY_TO_MOVE")),
+        is_resale=safe_bool(r.get("IS_RESALE")),
+        is_rera=safe_bool(r.get("IS_RERA")),
+        is_gated_community=safe_bool(r.get("IS_GATED_COMMUNITY")),
+        is_ground_floor=safe_bool(r.get("IS_GROUND_FLOOR")),
+        is_top_floor=safe_bool(r.get("IS_TOP_FLOOR")),
+        amenities_count=safe_int(r.get("AMENITIES_COUNT")),
+        features_count=safe_int(r.get("FEATURES_COUNT")),
+        usp_count=safe_int(r.get("USP_COUNT")),
+        total_nearby_landmarks=safe_int(r.get("TOTAL_NEARBY_LANDMARKS")),
+        nearby_landmarks=nearby_landmarks,
+        carpet_sqft=safe_float(r.get("CARPET_SQFT")),
+        superbuiltup_sqft=safe_float(r.get("SUPERBUILTUP_SQFT")),
+        latitude=safe_float(r.get("LATITUDE")),
+        longitude=safe_float(r.get("LONGITUDE")),
+        prop_heading=str(prop_heading) if pd.notna(prop_heading) else None,
+        similar_listings=similar_cards,
+    )
+
+
+@app.get("/listing/{prop_id}", response_model=ListingDetail)
+def get_listing_any_city(prop_id: str, city: str | None = None):
+    if city:
+        return get_listing(city, prop_id)
+    for c, s in state["cities"].items():
+        if prop_id in s["features_df"]["PROP_ID"].values:
+            return get_listing(c, prop_id)
+    raise HTTPException(status_code=404, detail="Listing not found in any loaded city")
 
 
 @app.post("/{city}/predict/explain", response_model=ExplainResponse)
